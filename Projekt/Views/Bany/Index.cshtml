@@ -1,0 +1,63 @@
+﻿@model IEnumerable<Projekt.Models.Ban>
+
+@{
+    ViewBag.Title = "Lista zbanowanych";
+}
+
+    <h2>Lista zbanowanych</h2>
+
+<p>
+    @Html.ActionLink("Dodaj Bana", "Create")
+</p>
+<table class="table">
+    <tr>
+        <th>
+            @Html.DisplayNameFor(model => model.Serwer.NazwaSerwera)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.UzytkownikNazwa)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Steam)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.NazwaGracza)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.PowodBana)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.CzasBana)
+        </th>
+        <th></th>
+    </tr>
+
+@foreach (var item in Model) {
+    <tr>
+        <td>
+            @Html.DisplayFor(modelItem => item.Serwer.NazwaSerwera)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.UzytkownikNazwa)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.Steam)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.NazwaGracza)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.PowodBana)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.CzasBana)
+        </td>
+        <td>
+            @Html.ActionLink("Edytuj", "Edit", new { id=item.ID }) |
+            @Html.ActionLink("Informacje", "Details", new { id=item.ID }) |
+            @Html.ActionLink("Usuń", "Delete", new { id=item.ID })
+        </td>
+    </tr>
+}
+
+</table>

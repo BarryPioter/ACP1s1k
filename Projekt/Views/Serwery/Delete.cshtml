@@ -1,0 +1,63 @@
+﻿@model Projekt.Models.Serwer
+
+@{
+    ViewBag.Title = "Usuń serwer";
+}
+
+    <h2>Usuń serwer</h2>
+
+<h3>Jesteś pewny że chcesz usunąć ten serwer?</h3>
+<div>
+    <hr />
+    <dl class="dl-horizontal">
+        <dt>
+            @Html.DisplayNameFor(model => model.Uzytkownik.Nick)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Uzytkownik.Nick)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.NazwaSerwera)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.NazwaSerwera)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.IP)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.IP)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Port)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Port)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.DataUtworzenia)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.DataUtworzenia)
+        </dd>
+
+    </dl>
+
+    @using (Html.BeginForm()) {
+        @Html.AntiForgeryToken()
+
+        <div class="form-actions no-color">
+            <input type="submit" value="Delete" class="btn btn-default" /> |
+            @Html.ActionLink("Back to List", "Index")
+        </div>
+    }
+</div>

@@ -1,0 +1,530 @@
+C:\Users\Kevcio\Desktop\Projekt\Projekt\bin\Projekt.dll.config
+C:\Users\Kevcio\Desktop\Projekt\Projekt\bin\Projekt.dll
+C:\Users\Kevcio\Desktop\Projekt\Projekt\bin\Projekt.pdb
+C:\Users\Kevcio\Desktop\Projekt\Projekt\bin\roslyn\csc.exe
+C:\Users\Kevcio\Desktop\Projekt\Projekt\bin\roslyn\csc.exe.config
+C:\Users\Kevcio\Desktop\Projekt\Projekt\bin\roslyn\csc.rsp
+C:\Users\Kevcio\Desktop\Projekt\Projekt\bin\roslyn\csi.exe
+C:\Users\Kevcio\Desktop\Projekt\Projekt\bin\roslyn\csi.exe.config
+C:\Users\Kevcio\Desktop\Projekt\Projekt\bin\roslyn\csi.rsp
+C:\Users\Kevcio\Desktop\Projekt\Projekt\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\Kevcio\Desktop\Projekt\Projekt\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\Kevcio\Desktop\Projekt\Projekt\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+C:\Users\Kevcio\Desktop\Projekt\Projekt\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\Kevcio\Desktop\Projekt\Projekt\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+C:\Users\Kevcio\Desktop\Projekt\Projekt\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\Kevcio\Desktop\Projekt\Projekt\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\Kevcio\Desktop\Projekt\Projekt\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+C:\Users\Kevcio\Desktop\Projekt\Projekt\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+C:\Users\Kevcio\Desktop\Projekt\Projekt\bin\roslyn\Microsoft.Managed.Core.targets
+C:\Users\Kevcio\Desktop\Projekt\Projekt\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\Kevcio\Desktop\Projekt\Projekt\bin\roslyn\Microsoft.Win32.Primitives.dll
+C:\Users\Kevcio\Desktop\Projekt\Projekt\bin\roslyn\System.AppContext.dll
+C:\Users\Kevcio\Desktop\Projekt\Projekt\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\Kevcio\Desktop\Projekt\Projekt\bin\roslyn\System.Console.dll
+C:\Users\Kevcio\Desktop\Projekt\Projekt\bin\roslyn\System.Diagnostics.DiagnosticSource.dll
+C:\Users\Kevcio\Desktop\Projekt\Projekt\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+C:\Users\Kevcio\Desktop\Projekt\Projekt\bin\roslyn\System.Diagnostics.StackTrace.dll
+C:\Users\Kevcio\Desktop\Projekt\Projekt\bin\roslyn\System.Globalization.Calendars.dll
+C:\Users\Kevcio\Desktop\Projekt\Projekt\bin\roslyn\System.IO.Compression.dll
+C:\Users\Kevcio\Desktop\Projekt\Projekt\bin\roslyn\System.IO.Compression.ZipFile.dll
+C:\Users\Kevcio\Desktop\Projekt\Projekt\bin\roslyn\System.IO.FileSystem.dll
+C:\Users\Kevcio\Desktop\Projekt\Projekt\bin\roslyn\System.IO.FileSystem.Primitives.dll
+C:\Users\Kevcio\Desktop\Projekt\Projekt\bin\roslyn\System.Net.Http.dll
+C:\Users\Kevcio\Desktop\Projekt\Projekt\bin\roslyn\System.Net.Sockets.dll
+C:\Users\Kevcio\Desktop\Projekt\Projekt\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\Kevcio\Desktop\Projekt\Projekt\bin\roslyn\System.Runtime.InteropServices.RuntimeInformation.dll
+C:\Users\Kevcio\Desktop\Projekt\Projekt\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+C:\Users\Kevcio\Desktop\Projekt\Projekt\bin\roslyn\System.Security.Cryptography.Encoding.dll
+C:\Users\Kevcio\Desktop\Projekt\Projekt\bin\roslyn\System.Security.Cryptography.Primitives.dll
+C:\Users\Kevcio\Desktop\Projekt\Projekt\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+C:\Users\Kevcio\Desktop\Projekt\Projekt\bin\roslyn\System.Text.Encoding.CodePages.dll
+C:\Users\Kevcio\Desktop\Projekt\Projekt\bin\roslyn\System.Threading.Tasks.Extensions.dll
+C:\Users\Kevcio\Desktop\Projekt\Projekt\bin\roslyn\System.ValueTuple.dll
+C:\Users\Kevcio\Desktop\Projekt\Projekt\bin\roslyn\System.Xml.ReaderWriter.dll
+C:\Users\Kevcio\Desktop\Projekt\Projekt\bin\roslyn\System.Xml.XmlDocument.dll
+C:\Users\Kevcio\Desktop\Projekt\Projekt\bin\roslyn\System.Xml.XPath.dll
+C:\Users\Kevcio\Desktop\Projekt\Projekt\bin\roslyn\System.Xml.XPath.XDocument.dll
+C:\Users\Kevcio\Desktop\Projekt\Projekt\bin\roslyn\vbc.exe
+C:\Users\Kevcio\Desktop\Projekt\Projekt\bin\roslyn\vbc.exe.config
+C:\Users\Kevcio\Desktop\Projekt\Projekt\bin\roslyn\vbc.rsp
+C:\Users\Kevcio\Desktop\Projekt\Projekt\bin\roslyn\VBCSCompiler.exe
+C:\Users\Kevcio\Desktop\Projekt\Projekt\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\Kevcio\Desktop\Projekt\Projekt\bin\Antlr3.Runtime.dll
+C:\Users\Kevcio\Desktop\Projekt\Projekt\bin\EntityFramework.dll
+C:\Users\Kevcio\Desktop\Projekt\Projekt\bin\EntityFramework.SqlServer.dll
+C:\Users\Kevcio\Desktop\Projekt\Projekt\bin\Microsoft.AspNet.Identity.Core.dll
+C:\Users\Kevcio\Desktop\Projekt\Projekt\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+C:\Users\Kevcio\Desktop\Projekt\Projekt\bin\Microsoft.AspNet.Identity.Owin.dll
+C:\Users\Kevcio\Desktop\Projekt\Projekt\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\Kevcio\Desktop\Projekt\Projekt\bin\Microsoft.Owin.dll
+C:\Users\Kevcio\Desktop\Projekt\Projekt\bin\Microsoft.Owin.Host.SystemWeb.dll
+C:\Users\Kevcio\Desktop\Projekt\Projekt\bin\Microsoft.Owin.Security.Cookies.dll
+C:\Users\Kevcio\Desktop\Projekt\Projekt\bin\Microsoft.Owin.Security.dll
+C:\Users\Kevcio\Desktop\Projekt\Projekt\bin\Microsoft.Owin.Security.Facebook.dll
+C:\Users\Kevcio\Desktop\Projekt\Projekt\bin\Microsoft.Owin.Security.Google.dll
+C:\Users\Kevcio\Desktop\Projekt\Projekt\bin\Microsoft.Owin.Security.MicrosoftAccount.dll
+C:\Users\Kevcio\Desktop\Projekt\Projekt\bin\Microsoft.Owin.Security.OAuth.dll
+C:\Users\Kevcio\Desktop\Projekt\Projekt\bin\Microsoft.Owin.Security.Twitter.dll
+C:\Users\Kevcio\Desktop\Projekt\Projekt\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\Kevcio\Desktop\Projekt\Projekt\bin\Newtonsoft.Json.dll
+C:\Users\Kevcio\Desktop\Projekt\Projekt\bin\Owin.dll
+C:\Users\Kevcio\Desktop\Projekt\Projekt\bin\System.Web.Helpers.dll
+C:\Users\Kevcio\Desktop\Projekt\Projekt\bin\System.Web.Mvc.dll
+C:\Users\Kevcio\Desktop\Projekt\Projekt\bin\System.Web.Optimization.dll
+C:\Users\Kevcio\Desktop\Projekt\Projekt\bin\System.Web.Razor.dll
+C:\Users\Kevcio\Desktop\Projekt\Projekt\bin\System.Web.WebPages.Deployment.dll
+C:\Users\Kevcio\Desktop\Projekt\Projekt\bin\System.Web.WebPages.dll
+C:\Users\Kevcio\Desktop\Projekt\Projekt\bin\System.Web.WebPages.Razor.dll
+C:\Users\Kevcio\Desktop\Projekt\Projekt\bin\WebGrease.dll
+C:\Users\Kevcio\Desktop\Projekt\Projekt\bin\System.Web.Helpers.xml
+C:\Users\Kevcio\Desktop\Projekt\Projekt\bin\System.Web.Mvc.xml
+C:\Users\Kevcio\Desktop\Projekt\Projekt\bin\System.Web.Optimization.xml
+C:\Users\Kevcio\Desktop\Projekt\Projekt\bin\System.Web.Razor.xml
+C:\Users\Kevcio\Desktop\Projekt\Projekt\bin\System.Web.WebPages.xml
+C:\Users\Kevcio\Desktop\Projekt\Projekt\bin\System.Web.WebPages.Deployment.xml
+C:\Users\Kevcio\Desktop\Projekt\Projekt\bin\System.Web.WebPages.Razor.xml
+C:\Users\Kevcio\Desktop\Projekt\Projekt\bin\Newtonsoft.Json.xml
+C:\Users\Kevcio\Desktop\Projekt\Projekt\bin\Antlr3.Runtime.pdb
+C:\Users\Kevcio\Desktop\Projekt\Projekt\bin\EntityFramework.xml
+C:\Users\Kevcio\Desktop\Projekt\Projekt\bin\EntityFramework.SqlServer.xml
+C:\Users\Kevcio\Desktop\Projekt\Projekt\bin\Microsoft.AspNet.Identity.Core.xml
+C:\Users\Kevcio\Desktop\Projekt\Projekt\bin\Microsoft.AspNet.Identity.Owin.xml
+C:\Users\Kevcio\Desktop\Projekt\Projekt\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+C:\Users\Kevcio\Desktop\Projekt\Projekt\bin\Microsoft.Owin.xml
+C:\Users\Kevcio\Desktop\Projekt\Projekt\bin\Microsoft.Owin.Host.SystemWeb.xml
+C:\Users\Kevcio\Desktop\Projekt\Projekt\bin\Microsoft.Owin.Security.xml
+C:\Users\Kevcio\Desktop\Projekt\Projekt\bin\Microsoft.Owin.Security.Facebook.xml
+C:\Users\Kevcio\Desktop\Projekt\Projekt\bin\Microsoft.Owin.Security.Cookies.xml
+C:\Users\Kevcio\Desktop\Projekt\Projekt\bin\Microsoft.Owin.Security.Google.xml
+C:\Users\Kevcio\Desktop\Projekt\Projekt\bin\Microsoft.Owin.Security.Twitter.xml
+C:\Users\Kevcio\Desktop\Projekt\Projekt\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
+C:\Users\Kevcio\Desktop\Projekt\Projekt\bin\Microsoft.Owin.Security.OAuth.xml
+C:\Users\Kevcio\Desktop\Projekt\Projekt\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\Kevcio\Desktop\Projekt\Projekt\bin\pl\System.Web.Helpers.resources.dll
+C:\Users\Kevcio\Desktop\Projekt\Projekt\bin\pl\System.Web.Mvc.resources.dll
+C:\Users\Kevcio\Desktop\Projekt\Projekt\bin\pl\System.Web.Optimization.resources.dll
+C:\Users\Kevcio\Desktop\Projekt\Projekt\bin\pl\System.Web.Razor.resources.dll
+C:\Users\Kevcio\Desktop\Projekt\Projekt\bin\pl\System.Web.WebPages.resources.dll
+C:\Users\Kevcio\Desktop\Projekt\Projekt\bin\pl\System.Web.WebPages.Deployment.resources.dll
+C:\Users\Kevcio\Desktop\Projekt\Projekt\bin\pl\System.Web.WebPages.Razor.resources.dll
+C:\Users\Kevcio\Desktop\Projekt\Projekt\bin\pl\Microsoft.AspNet.Identity.Core.resources.dll
+C:\Users\Kevcio\Desktop\Projekt\Projekt\bin\pl\Microsoft.AspNet.Identity.Owin.resources.dll
+C:\Users\Kevcio\Desktop\Projekt\Projekt\bin\pl\Microsoft.AspNet.Identity.EntityFramework.resources.dll
+C:\Users\Kevcio\Desktop\Projekt\Projekt\bin\pl\Microsoft.Owin.resources.dll
+C:\Users\Kevcio\Desktop\Projekt\Projekt\bin\pl\Microsoft.Owin.Host.SystemWeb.resources.dll
+C:\Users\Kevcio\Desktop\Projekt\Projekt\bin\pl\Microsoft.Owin.Security.resources.dll
+C:\Users\Kevcio\Desktop\Projekt\Projekt\bin\pl\Microsoft.Owin.Security.Facebook.resources.dll
+C:\Users\Kevcio\Desktop\Projekt\Projekt\bin\pl\Microsoft.Owin.Security.Google.resources.dll
+C:\Users\Kevcio\Desktop\Projekt\Projekt\bin\pl\Microsoft.Owin.Security.Twitter.resources.dll
+C:\Users\Kevcio\Desktop\Projekt\Projekt\bin\pl\Microsoft.Owin.Security.MicrosoftAccount.resources.dll
+C:\Users\Kevcio\Desktop\Projekt\Projekt\obj\Debug\Projekt.csproj.CoreCompileInputs.cache
+C:\Users\Kevcio\Desktop\Projekt\Projekt\obj\Debug\Projekt.csproj.CopyComplete
+C:\Users\Kevcio\Desktop\Projekt\Projekt\obj\Debug\Projekt.dll
+C:\Users\Kevcio\Desktop\Projekt\Projekt\obj\Debug\Projekt.pdb
+C:\Users\Kevcio\Desktop\Projekt\Projekt\bin\PagedList.dll
+C:\Users\Kevcio\Desktop\Projekt\Projekt\bin\PagedList.Mvc.dll
+C:\Users\Kevcio\Desktop\Projekt\Projekt\bin\PagedList.xml
+C:\Users\Kevcio\Desktop\Projekt\Projekt\bin\PagedList.Mvc.xml
+C:\Users\Kevcio\Desktop\Projekt\Projekt\obj\Debug\Projekt.csprojAssemblyReference.cache
+C:\Users\Kevcio\Desktop\Projekt\Projekt\bin\RCONServerLib.dll
+C:\Users\kamil\Desktop\Projekt\Projekt\bin\Projekt.dll.config
+C:\Users\kamil\Desktop\Projekt\Projekt\bin\Projekt.dll
+C:\Users\kamil\Desktop\Projekt\Projekt\bin\Projekt.pdb
+C:\Users\kamil\Desktop\Projekt\Projekt\bin\roslyn\csc.exe
+C:\Users\kamil\Desktop\Projekt\Projekt\bin\roslyn\csc.exe.config
+C:\Users\kamil\Desktop\Projekt\Projekt\bin\roslyn\csc.rsp
+C:\Users\kamil\Desktop\Projekt\Projekt\bin\roslyn\csi.exe
+C:\Users\kamil\Desktop\Projekt\Projekt\bin\roslyn\csi.exe.config
+C:\Users\kamil\Desktop\Projekt\Projekt\bin\roslyn\csi.rsp
+C:\Users\kamil\Desktop\Projekt\Projekt\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\kamil\Desktop\Projekt\Projekt\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\kamil\Desktop\Projekt\Projekt\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+C:\Users\kamil\Desktop\Projekt\Projekt\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\kamil\Desktop\Projekt\Projekt\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+C:\Users\kamil\Desktop\Projekt\Projekt\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\kamil\Desktop\Projekt\Projekt\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\kamil\Desktop\Projekt\Projekt\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+C:\Users\kamil\Desktop\Projekt\Projekt\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+C:\Users\kamil\Desktop\Projekt\Projekt\bin\roslyn\Microsoft.Managed.Core.targets
+C:\Users\kamil\Desktop\Projekt\Projekt\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\kamil\Desktop\Projekt\Projekt\bin\roslyn\Microsoft.Win32.Primitives.dll
+C:\Users\kamil\Desktop\Projekt\Projekt\bin\roslyn\System.AppContext.dll
+C:\Users\kamil\Desktop\Projekt\Projekt\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\kamil\Desktop\Projekt\Projekt\bin\roslyn\System.Console.dll
+C:\Users\kamil\Desktop\Projekt\Projekt\bin\roslyn\System.Diagnostics.DiagnosticSource.dll
+C:\Users\kamil\Desktop\Projekt\Projekt\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+C:\Users\kamil\Desktop\Projekt\Projekt\bin\roslyn\System.Diagnostics.StackTrace.dll
+C:\Users\kamil\Desktop\Projekt\Projekt\bin\roslyn\System.Globalization.Calendars.dll
+C:\Users\kamil\Desktop\Projekt\Projekt\bin\roslyn\System.IO.Compression.dll
+C:\Users\kamil\Desktop\Projekt\Projekt\bin\roslyn\System.IO.Compression.ZipFile.dll
+C:\Users\kamil\Desktop\Projekt\Projekt\bin\roslyn\System.IO.FileSystem.dll
+C:\Users\kamil\Desktop\Projekt\Projekt\bin\roslyn\System.IO.FileSystem.Primitives.dll
+C:\Users\kamil\Desktop\Projekt\Projekt\bin\roslyn\System.Net.Http.dll
+C:\Users\kamil\Desktop\Projekt\Projekt\bin\roslyn\System.Net.Sockets.dll
+C:\Users\kamil\Desktop\Projekt\Projekt\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\kamil\Desktop\Projekt\Projekt\bin\roslyn\System.Runtime.InteropServices.RuntimeInformation.dll
+C:\Users\kamil\Desktop\Projekt\Projekt\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+C:\Users\kamil\Desktop\Projekt\Projekt\bin\roslyn\System.Security.Cryptography.Encoding.dll
+C:\Users\kamil\Desktop\Projekt\Projekt\bin\roslyn\System.Security.Cryptography.Primitives.dll
+C:\Users\kamil\Desktop\Projekt\Projekt\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+C:\Users\kamil\Desktop\Projekt\Projekt\bin\roslyn\System.Text.Encoding.CodePages.dll
+C:\Users\kamil\Desktop\Projekt\Projekt\bin\roslyn\System.Threading.Tasks.Extensions.dll
+C:\Users\kamil\Desktop\Projekt\Projekt\bin\roslyn\System.ValueTuple.dll
+C:\Users\kamil\Desktop\Projekt\Projekt\bin\roslyn\System.Xml.ReaderWriter.dll
+C:\Users\kamil\Desktop\Projekt\Projekt\bin\roslyn\System.Xml.XmlDocument.dll
+C:\Users\kamil\Desktop\Projekt\Projekt\bin\roslyn\System.Xml.XPath.dll
+C:\Users\kamil\Desktop\Projekt\Projekt\bin\roslyn\System.Xml.XPath.XDocument.dll
+C:\Users\kamil\Desktop\Projekt\Projekt\bin\roslyn\vbc.exe
+C:\Users\kamil\Desktop\Projekt\Projekt\bin\roslyn\vbc.exe.config
+C:\Users\kamil\Desktop\Projekt\Projekt\bin\roslyn\vbc.rsp
+C:\Users\kamil\Desktop\Projekt\Projekt\bin\roslyn\VBCSCompiler.exe
+C:\Users\kamil\Desktop\Projekt\Projekt\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\kamil\Desktop\Projekt\Projekt\bin\Antlr3.Runtime.dll
+C:\Users\kamil\Desktop\Projekt\Projekt\bin\EntityFramework.dll
+C:\Users\kamil\Desktop\Projekt\Projekt\bin\EntityFramework.SqlServer.dll
+C:\Users\kamil\Desktop\Projekt\Projekt\bin\Microsoft.AspNet.Identity.Core.dll
+C:\Users\kamil\Desktop\Projekt\Projekt\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+C:\Users\kamil\Desktop\Projekt\Projekt\bin\Microsoft.AspNet.Identity.Owin.dll
+C:\Users\kamil\Desktop\Projekt\Projekt\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\kamil\Desktop\Projekt\Projekt\bin\Microsoft.Owin.dll
+C:\Users\kamil\Desktop\Projekt\Projekt\bin\Microsoft.Owin.Host.SystemWeb.dll
+C:\Users\kamil\Desktop\Projekt\Projekt\bin\Microsoft.Owin.Security.Cookies.dll
+C:\Users\kamil\Desktop\Projekt\Projekt\bin\Microsoft.Owin.Security.dll
+C:\Users\kamil\Desktop\Projekt\Projekt\bin\Microsoft.Owin.Security.Facebook.dll
+C:\Users\kamil\Desktop\Projekt\Projekt\bin\Microsoft.Owin.Security.Google.dll
+C:\Users\kamil\Desktop\Projekt\Projekt\bin\Microsoft.Owin.Security.MicrosoftAccount.dll
+C:\Users\kamil\Desktop\Projekt\Projekt\bin\Microsoft.Owin.Security.OAuth.dll
+C:\Users\kamil\Desktop\Projekt\Projekt\bin\Microsoft.Owin.Security.Twitter.dll
+C:\Users\kamil\Desktop\Projekt\Projekt\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\kamil\Desktop\Projekt\Projekt\bin\Newtonsoft.Json.dll
+C:\Users\kamil\Desktop\Projekt\Projekt\bin\Owin.dll
+C:\Users\kamil\Desktop\Projekt\Projekt\bin\PagedList.dll
+C:\Users\kamil\Desktop\Projekt\Projekt\bin\PagedList.Mvc.dll
+C:\Users\kamil\Desktop\Projekt\Projekt\bin\RCONServerLib.dll
+C:\Users\kamil\Desktop\Projekt\Projekt\bin\System.Web.Helpers.dll
+C:\Users\kamil\Desktop\Projekt\Projekt\bin\System.Web.Mvc.dll
+C:\Users\kamil\Desktop\Projekt\Projekt\bin\System.Web.Optimization.dll
+C:\Users\kamil\Desktop\Projekt\Projekt\bin\System.Web.Razor.dll
+C:\Users\kamil\Desktop\Projekt\Projekt\bin\System.Web.WebPages.Deployment.dll
+C:\Users\kamil\Desktop\Projekt\Projekt\bin\System.Web.WebPages.dll
+C:\Users\kamil\Desktop\Projekt\Projekt\bin\System.Web.WebPages.Razor.dll
+C:\Users\kamil\Desktop\Projekt\Projekt\bin\WebGrease.dll
+C:\Users\kamil\Desktop\Projekt\Projekt\bin\PagedList.xml
+C:\Users\kamil\Desktop\Projekt\Projekt\bin\PagedList.Mvc.xml
+C:\Users\kamil\Desktop\Projekt\Projekt\bin\System.Web.Helpers.xml
+C:\Users\kamil\Desktop\Projekt\Projekt\bin\System.Web.Mvc.xml
+C:\Users\kamil\Desktop\Projekt\Projekt\bin\System.Web.Optimization.xml
+C:\Users\kamil\Desktop\Projekt\Projekt\bin\System.Web.Razor.xml
+C:\Users\kamil\Desktop\Projekt\Projekt\bin\System.Web.WebPages.xml
+C:\Users\kamil\Desktop\Projekt\Projekt\bin\System.Web.WebPages.Deployment.xml
+C:\Users\kamil\Desktop\Projekt\Projekt\bin\System.Web.WebPages.Razor.xml
+C:\Users\kamil\Desktop\Projekt\Projekt\bin\Newtonsoft.Json.xml
+C:\Users\kamil\Desktop\Projekt\Projekt\bin\Antlr3.Runtime.pdb
+C:\Users\kamil\Desktop\Projekt\Projekt\bin\EntityFramework.xml
+C:\Users\kamil\Desktop\Projekt\Projekt\bin\EntityFramework.SqlServer.xml
+C:\Users\kamil\Desktop\Projekt\Projekt\bin\Microsoft.AspNet.Identity.Core.xml
+C:\Users\kamil\Desktop\Projekt\Projekt\bin\Microsoft.AspNet.Identity.Owin.xml
+C:\Users\kamil\Desktop\Projekt\Projekt\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+C:\Users\kamil\Desktop\Projekt\Projekt\bin\Microsoft.Owin.xml
+C:\Users\kamil\Desktop\Projekt\Projekt\bin\Microsoft.Owin.Host.SystemWeb.xml
+C:\Users\kamil\Desktop\Projekt\Projekt\bin\Microsoft.Owin.Security.xml
+C:\Users\kamil\Desktop\Projekt\Projekt\bin\Microsoft.Owin.Security.Facebook.xml
+C:\Users\kamil\Desktop\Projekt\Projekt\bin\Microsoft.Owin.Security.Cookies.xml
+C:\Users\kamil\Desktop\Projekt\Projekt\bin\Microsoft.Owin.Security.Google.xml
+C:\Users\kamil\Desktop\Projekt\Projekt\bin\Microsoft.Owin.Security.Twitter.xml
+C:\Users\kamil\Desktop\Projekt\Projekt\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
+C:\Users\kamil\Desktop\Projekt\Projekt\bin\Microsoft.Owin.Security.OAuth.xml
+C:\Users\kamil\Desktop\Projekt\Projekt\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\kamil\Desktop\Projekt\Projekt\bin\pl\System.Web.Helpers.resources.dll
+C:\Users\kamil\Desktop\Projekt\Projekt\bin\pl\System.Web.Mvc.resources.dll
+C:\Users\kamil\Desktop\Projekt\Projekt\bin\pl\System.Web.Optimization.resources.dll
+C:\Users\kamil\Desktop\Projekt\Projekt\bin\pl\System.Web.Razor.resources.dll
+C:\Users\kamil\Desktop\Projekt\Projekt\bin\pl\System.Web.WebPages.resources.dll
+C:\Users\kamil\Desktop\Projekt\Projekt\bin\pl\System.Web.WebPages.Deployment.resources.dll
+C:\Users\kamil\Desktop\Projekt\Projekt\bin\pl\System.Web.WebPages.Razor.resources.dll
+C:\Users\kamil\Desktop\Projekt\Projekt\bin\pl\Microsoft.AspNet.Identity.Core.resources.dll
+C:\Users\kamil\Desktop\Projekt\Projekt\bin\pl\Microsoft.AspNet.Identity.Owin.resources.dll
+C:\Users\kamil\Desktop\Projekt\Projekt\bin\pl\Microsoft.AspNet.Identity.EntityFramework.resources.dll
+C:\Users\kamil\Desktop\Projekt\Projekt\bin\pl\Microsoft.Owin.resources.dll
+C:\Users\kamil\Desktop\Projekt\Projekt\bin\pl\Microsoft.Owin.Host.SystemWeb.resources.dll
+C:\Users\kamil\Desktop\Projekt\Projekt\bin\pl\Microsoft.Owin.Security.resources.dll
+C:\Users\kamil\Desktop\Projekt\Projekt\bin\pl\Microsoft.Owin.Security.Facebook.resources.dll
+C:\Users\kamil\Desktop\Projekt\Projekt\bin\pl\Microsoft.Owin.Security.Google.resources.dll
+C:\Users\kamil\Desktop\Projekt\Projekt\bin\pl\Microsoft.Owin.Security.Twitter.resources.dll
+C:\Users\kamil\Desktop\Projekt\Projekt\bin\pl\Microsoft.Owin.Security.MicrosoftAccount.resources.dll
+C:\Users\kamil\Desktop\Projekt\Projekt\obj\Debug\Projekt.csprojAssemblyReference.cache
+C:\Users\kamil\Desktop\Projekt\Projekt\obj\Debug\Projekt.csproj.CopyComplete
+C:\Users\kamil\Desktop\Projekt\Projekt\obj\Debug\Projekt.dll
+C:\Users\kamil\Desktop\Projekt\Projekt\obj\Debug\Projekt.pdb
+G:\Projekt\Projekt\bin\Projekt.dll.config
+G:\Projekt\Projekt\bin\Projekt.dll
+G:\Projekt\Projekt\bin\Projekt.pdb
+G:\Projekt\Projekt\bin\roslyn\csc.exe
+G:\Projekt\Projekt\bin\roslyn\csc.exe.config
+G:\Projekt\Projekt\bin\roslyn\csc.rsp
+G:\Projekt\Projekt\bin\roslyn\csi.exe
+G:\Projekt\Projekt\bin\roslyn\csi.exe.config
+G:\Projekt\Projekt\bin\roslyn\csi.rsp
+G:\Projekt\Projekt\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+G:\Projekt\Projekt\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+G:\Projekt\Projekt\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+G:\Projekt\Projekt\bin\roslyn\Microsoft.CodeAnalysis.dll
+G:\Projekt\Projekt\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+G:\Projekt\Projekt\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+G:\Projekt\Projekt\bin\roslyn\Microsoft.CSharp.Core.targets
+G:\Projekt\Projekt\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+G:\Projekt\Projekt\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+G:\Projekt\Projekt\bin\roslyn\Microsoft.Managed.Core.targets
+G:\Projekt\Projekt\bin\roslyn\Microsoft.VisualBasic.Core.targets
+G:\Projekt\Projekt\bin\roslyn\Microsoft.Win32.Primitives.dll
+G:\Projekt\Projekt\bin\roslyn\System.AppContext.dll
+G:\Projekt\Projekt\bin\roslyn\System.Collections.Immutable.dll
+G:\Projekt\Projekt\bin\roslyn\System.Console.dll
+G:\Projekt\Projekt\bin\roslyn\System.Diagnostics.DiagnosticSource.dll
+G:\Projekt\Projekt\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+G:\Projekt\Projekt\bin\roslyn\System.Diagnostics.StackTrace.dll
+G:\Projekt\Projekt\bin\roslyn\System.Globalization.Calendars.dll
+G:\Projekt\Projekt\bin\roslyn\System.IO.Compression.dll
+G:\Projekt\Projekt\bin\roslyn\System.IO.Compression.ZipFile.dll
+G:\Projekt\Projekt\bin\roslyn\System.IO.FileSystem.dll
+G:\Projekt\Projekt\bin\roslyn\System.IO.FileSystem.Primitives.dll
+G:\Projekt\Projekt\bin\roslyn\System.Net.Http.dll
+G:\Projekt\Projekt\bin\roslyn\System.Net.Sockets.dll
+G:\Projekt\Projekt\bin\roslyn\System.Reflection.Metadata.dll
+G:\Projekt\Projekt\bin\roslyn\System.Runtime.InteropServices.RuntimeInformation.dll
+G:\Projekt\Projekt\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+G:\Projekt\Projekt\bin\roslyn\System.Security.Cryptography.Encoding.dll
+G:\Projekt\Projekt\bin\roslyn\System.Security.Cryptography.Primitives.dll
+G:\Projekt\Projekt\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+G:\Projekt\Projekt\bin\roslyn\System.Text.Encoding.CodePages.dll
+G:\Projekt\Projekt\bin\roslyn\System.Threading.Tasks.Extensions.dll
+G:\Projekt\Projekt\bin\roslyn\System.ValueTuple.dll
+G:\Projekt\Projekt\bin\roslyn\System.Xml.ReaderWriter.dll
+G:\Projekt\Projekt\bin\roslyn\System.Xml.XmlDocument.dll
+G:\Projekt\Projekt\bin\roslyn\System.Xml.XPath.dll
+G:\Projekt\Projekt\bin\roslyn\System.Xml.XPath.XDocument.dll
+G:\Projekt\Projekt\bin\roslyn\vbc.exe
+G:\Projekt\Projekt\bin\roslyn\vbc.exe.config
+G:\Projekt\Projekt\bin\roslyn\vbc.rsp
+G:\Projekt\Projekt\bin\roslyn\VBCSCompiler.exe
+G:\Projekt\Projekt\bin\roslyn\VBCSCompiler.exe.config
+G:\Projekt\Projekt\bin\Antlr3.Runtime.dll
+G:\Projekt\Projekt\bin\EntityFramework.dll
+G:\Projekt\Projekt\bin\EntityFramework.SqlServer.dll
+G:\Projekt\Projekt\bin\Microsoft.AspNet.Identity.Core.dll
+G:\Projekt\Projekt\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+G:\Projekt\Projekt\bin\Microsoft.AspNet.Identity.Owin.dll
+G:\Projekt\Projekt\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+G:\Projekt\Projekt\bin\Microsoft.Owin.dll
+G:\Projekt\Projekt\bin\Microsoft.Owin.Host.SystemWeb.dll
+G:\Projekt\Projekt\bin\Microsoft.Owin.Security.Cookies.dll
+G:\Projekt\Projekt\bin\Microsoft.Owin.Security.dll
+G:\Projekt\Projekt\bin\Microsoft.Owin.Security.Facebook.dll
+G:\Projekt\Projekt\bin\Microsoft.Owin.Security.Google.dll
+G:\Projekt\Projekt\bin\Microsoft.Owin.Security.MicrosoftAccount.dll
+G:\Projekt\Projekt\bin\Microsoft.Owin.Security.OAuth.dll
+G:\Projekt\Projekt\bin\Microsoft.Owin.Security.Twitter.dll
+G:\Projekt\Projekt\bin\Microsoft.Web.Infrastructure.dll
+G:\Projekt\Projekt\bin\Newtonsoft.Json.dll
+G:\Projekt\Projekt\bin\Owin.dll
+G:\Projekt\Projekt\bin\PagedList.dll
+G:\Projekt\Projekt\bin\PagedList.Mvc.dll
+G:\Projekt\Projekt\bin\RCONServerLib.dll
+G:\Projekt\Projekt\bin\System.Web.Helpers.dll
+G:\Projekt\Projekt\bin\System.Web.Mvc.dll
+G:\Projekt\Projekt\bin\System.Web.Optimization.dll
+G:\Projekt\Projekt\bin\System.Web.Razor.dll
+G:\Projekt\Projekt\bin\System.Web.WebPages.Deployment.dll
+G:\Projekt\Projekt\bin\System.Web.WebPages.dll
+G:\Projekt\Projekt\bin\System.Web.WebPages.Razor.dll
+G:\Projekt\Projekt\bin\WebGrease.dll
+G:\Projekt\Projekt\bin\PagedList.xml
+G:\Projekt\Projekt\bin\PagedList.Mvc.xml
+G:\Projekt\Projekt\bin\System.Web.Helpers.xml
+G:\Projekt\Projekt\bin\System.Web.Mvc.xml
+G:\Projekt\Projekt\bin\System.Web.Optimization.xml
+G:\Projekt\Projekt\bin\System.Web.Razor.xml
+G:\Projekt\Projekt\bin\System.Web.WebPages.xml
+G:\Projekt\Projekt\bin\System.Web.WebPages.Deployment.xml
+G:\Projekt\Projekt\bin\System.Web.WebPages.Razor.xml
+G:\Projekt\Projekt\bin\Newtonsoft.Json.xml
+G:\Projekt\Projekt\bin\Antlr3.Runtime.pdb
+G:\Projekt\Projekt\bin\EntityFramework.xml
+G:\Projekt\Projekt\bin\EntityFramework.SqlServer.xml
+G:\Projekt\Projekt\bin\Microsoft.AspNet.Identity.Core.xml
+G:\Projekt\Projekt\bin\Microsoft.AspNet.Identity.Owin.xml
+G:\Projekt\Projekt\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+G:\Projekt\Projekt\bin\Microsoft.Owin.xml
+G:\Projekt\Projekt\bin\Microsoft.Owin.Host.SystemWeb.xml
+G:\Projekt\Projekt\bin\Microsoft.Owin.Security.xml
+G:\Projekt\Projekt\bin\Microsoft.Owin.Security.Facebook.xml
+G:\Projekt\Projekt\bin\Microsoft.Owin.Security.Cookies.xml
+G:\Projekt\Projekt\bin\Microsoft.Owin.Security.Google.xml
+G:\Projekt\Projekt\bin\Microsoft.Owin.Security.Twitter.xml
+G:\Projekt\Projekt\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
+G:\Projekt\Projekt\bin\Microsoft.Owin.Security.OAuth.xml
+G:\Projekt\Projekt\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+G:\Projekt\Projekt\bin\pl\System.Web.Helpers.resources.dll
+G:\Projekt\Projekt\bin\pl\System.Web.Mvc.resources.dll
+G:\Projekt\Projekt\bin\pl\System.Web.Optimization.resources.dll
+G:\Projekt\Projekt\bin\pl\System.Web.Razor.resources.dll
+G:\Projekt\Projekt\bin\pl\System.Web.WebPages.resources.dll
+G:\Projekt\Projekt\bin\pl\System.Web.WebPages.Deployment.resources.dll
+G:\Projekt\Projekt\bin\pl\System.Web.WebPages.Razor.resources.dll
+G:\Projekt\Projekt\bin\pl\Microsoft.AspNet.Identity.Core.resources.dll
+G:\Projekt\Projekt\bin\pl\Microsoft.AspNet.Identity.Owin.resources.dll
+G:\Projekt\Projekt\bin\pl\Microsoft.AspNet.Identity.EntityFramework.resources.dll
+G:\Projekt\Projekt\bin\pl\Microsoft.Owin.resources.dll
+G:\Projekt\Projekt\bin\pl\Microsoft.Owin.Host.SystemWeb.resources.dll
+G:\Projekt\Projekt\bin\pl\Microsoft.Owin.Security.resources.dll
+G:\Projekt\Projekt\bin\pl\Microsoft.Owin.Security.Facebook.resources.dll
+G:\Projekt\Projekt\bin\pl\Microsoft.Owin.Security.Google.resources.dll
+G:\Projekt\Projekt\bin\pl\Microsoft.Owin.Security.Twitter.resources.dll
+G:\Projekt\Projekt\bin\pl\Microsoft.Owin.Security.MicrosoftAccount.resources.dll
+G:\Projekt\Projekt\obj\Debug\Projekt.csprojAssemblyReference.cache
+G:\Projekt\Projekt\obj\Debug\Projekt.csproj.CoreCompileInputs.cache
+G:\Projekt\Projekt\obj\Debug\Projekt.csproj.CopyComplete
+G:\Projekt\Projekt\obj\Debug\Projekt.dll
+G:\Projekt\Projekt\obj\Debug\Projekt.pdb
+C:\Users\Kevcio\Desktop\Projekt\Projekt\bin\Microsoft.AspNet.SignalR.Core.dll
+C:\Users\Kevcio\Desktop\Projekt\Projekt\bin\Microsoft.AspNet.SignalR.SystemWeb.dll
+C:\Users\Kevcio\Desktop\Projekt\Projekt\bin\Microsoft.AspNet.SignalR.Core.xml
+C:\Users\Kevcio\Desktop\Projekt\Projekt\bin\Microsoft.AspNet.SignalR.SystemWeb.xml
+C:\Users\Kevcio\Desktop\Projekt\Projekt\bin\pl\Microsoft.AspNet.SignalR.Core.resources.dll
+C:\Users\Kevcio\Desktop\Projekt\Projekt\bin\pl\Microsoft.AspNet.SignalR.SystemWeb.resources.dll
+C:\Users\Barry\Downloads\Projekt (1)\Projekt\Projekt\bin\Projekt.dll.config
+C:\Users\Barry\Downloads\Projekt (1)\Projekt\Projekt\bin\Projekt.dll
+C:\Users\Barry\Downloads\Projekt (1)\Projekt\Projekt\bin\Projekt.pdb
+C:\Users\Barry\Downloads\Projekt (1)\Projekt\Projekt\bin\roslyn\csc.exe
+C:\Users\Barry\Downloads\Projekt (1)\Projekt\Projekt\bin\roslyn\csc.exe.config
+C:\Users\Barry\Downloads\Projekt (1)\Projekt\Projekt\bin\roslyn\csc.rsp
+C:\Users\Barry\Downloads\Projekt (1)\Projekt\Projekt\bin\roslyn\csi.exe
+C:\Users\Barry\Downloads\Projekt (1)\Projekt\Projekt\bin\roslyn\csi.exe.config
+C:\Users\Barry\Downloads\Projekt (1)\Projekt\Projekt\bin\roslyn\csi.rsp
+C:\Users\Barry\Downloads\Projekt (1)\Projekt\Projekt\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\Barry\Downloads\Projekt (1)\Projekt\Projekt\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\Barry\Downloads\Projekt (1)\Projekt\Projekt\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+C:\Users\Barry\Downloads\Projekt (1)\Projekt\Projekt\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\Barry\Downloads\Projekt (1)\Projekt\Projekt\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+C:\Users\Barry\Downloads\Projekt (1)\Projekt\Projekt\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\Barry\Downloads\Projekt (1)\Projekt\Projekt\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\Barry\Downloads\Projekt (1)\Projekt\Projekt\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+C:\Users\Barry\Downloads\Projekt (1)\Projekt\Projekt\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+C:\Users\Barry\Downloads\Projekt (1)\Projekt\Projekt\bin\roslyn\Microsoft.Managed.Core.targets
+C:\Users\Barry\Downloads\Projekt (1)\Projekt\Projekt\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\Barry\Downloads\Projekt (1)\Projekt\Projekt\bin\roslyn\Microsoft.Win32.Primitives.dll
+C:\Users\Barry\Downloads\Projekt (1)\Projekt\Projekt\bin\roslyn\System.AppContext.dll
+C:\Users\Barry\Downloads\Projekt (1)\Projekt\Projekt\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\Barry\Downloads\Projekt (1)\Projekt\Projekt\bin\roslyn\System.Console.dll
+C:\Users\Barry\Downloads\Projekt (1)\Projekt\Projekt\bin\roslyn\System.Diagnostics.DiagnosticSource.dll
+C:\Users\Barry\Downloads\Projekt (1)\Projekt\Projekt\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+C:\Users\Barry\Downloads\Projekt (1)\Projekt\Projekt\bin\roslyn\System.Diagnostics.StackTrace.dll
+C:\Users\Barry\Downloads\Projekt (1)\Projekt\Projekt\bin\roslyn\System.Globalization.Calendars.dll
+C:\Users\Barry\Downloads\Projekt (1)\Projekt\Projekt\bin\roslyn\System.IO.Compression.dll
+C:\Users\Barry\Downloads\Projekt (1)\Projekt\Projekt\bin\roslyn\System.IO.Compression.ZipFile.dll
+C:\Users\Barry\Downloads\Projekt (1)\Projekt\Projekt\bin\roslyn\System.IO.FileSystem.dll
+C:\Users\Barry\Downloads\Projekt (1)\Projekt\Projekt\bin\roslyn\System.IO.FileSystem.Primitives.dll
+C:\Users\Barry\Downloads\Projekt (1)\Projekt\Projekt\bin\roslyn\System.Net.Http.dll
+C:\Users\Barry\Downloads\Projekt (1)\Projekt\Projekt\bin\roslyn\System.Net.Sockets.dll
+C:\Users\Barry\Downloads\Projekt (1)\Projekt\Projekt\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\Barry\Downloads\Projekt (1)\Projekt\Projekt\bin\roslyn\System.Runtime.InteropServices.RuntimeInformation.dll
+C:\Users\Barry\Downloads\Projekt (1)\Projekt\Projekt\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+C:\Users\Barry\Downloads\Projekt (1)\Projekt\Projekt\bin\roslyn\System.Security.Cryptography.Encoding.dll
+C:\Users\Barry\Downloads\Projekt (1)\Projekt\Projekt\bin\roslyn\System.Security.Cryptography.Primitives.dll
+C:\Users\Barry\Downloads\Projekt (1)\Projekt\Projekt\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+C:\Users\Barry\Downloads\Projekt (1)\Projekt\Projekt\bin\roslyn\System.Text.Encoding.CodePages.dll
+C:\Users\Barry\Downloads\Projekt (1)\Projekt\Projekt\bin\roslyn\System.Threading.Tasks.Extensions.dll
+C:\Users\Barry\Downloads\Projekt (1)\Projekt\Projekt\bin\roslyn\System.ValueTuple.dll
+C:\Users\Barry\Downloads\Projekt (1)\Projekt\Projekt\bin\roslyn\System.Xml.ReaderWriter.dll
+C:\Users\Barry\Downloads\Projekt (1)\Projekt\Projekt\bin\roslyn\System.Xml.XmlDocument.dll
+C:\Users\Barry\Downloads\Projekt (1)\Projekt\Projekt\bin\roslyn\System.Xml.XPath.dll
+C:\Users\Barry\Downloads\Projekt (1)\Projekt\Projekt\bin\roslyn\System.Xml.XPath.XDocument.dll
+C:\Users\Barry\Downloads\Projekt (1)\Projekt\Projekt\bin\roslyn\vbc.exe
+C:\Users\Barry\Downloads\Projekt (1)\Projekt\Projekt\bin\roslyn\vbc.exe.config
+C:\Users\Barry\Downloads\Projekt (1)\Projekt\Projekt\bin\roslyn\vbc.rsp
+C:\Users\Barry\Downloads\Projekt (1)\Projekt\Projekt\bin\roslyn\VBCSCompiler.exe
+C:\Users\Barry\Downloads\Projekt (1)\Projekt\Projekt\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\Barry\Downloads\Projekt (1)\Projekt\Projekt\bin\Antlr3.Runtime.dll
+C:\Users\Barry\Downloads\Projekt (1)\Projekt\Projekt\bin\EntityFramework.dll
+C:\Users\Barry\Downloads\Projekt (1)\Projekt\Projekt\bin\EntityFramework.SqlServer.dll
+C:\Users\Barry\Downloads\Projekt (1)\Projekt\Projekt\bin\Microsoft.AspNet.Identity.Core.dll
+C:\Users\Barry\Downloads\Projekt (1)\Projekt\Projekt\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+C:\Users\Barry\Downloads\Projekt (1)\Projekt\Projekt\bin\Microsoft.AspNet.Identity.Owin.dll
+C:\Users\Barry\Downloads\Projekt (1)\Projekt\Projekt\bin\Microsoft.AspNet.SignalR.Core.dll
+C:\Users\Barry\Downloads\Projekt (1)\Projekt\Projekt\bin\Microsoft.AspNet.SignalR.SystemWeb.dll
+C:\Users\Barry\Downloads\Projekt (1)\Projekt\Projekt\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\Barry\Downloads\Projekt (1)\Projekt\Projekt\bin\Microsoft.Owin.dll
+C:\Users\Barry\Downloads\Projekt (1)\Projekt\Projekt\bin\Microsoft.Owin.Host.SystemWeb.dll
+C:\Users\Barry\Downloads\Projekt (1)\Projekt\Projekt\bin\Microsoft.Owin.Security.Cookies.dll
+C:\Users\Barry\Downloads\Projekt (1)\Projekt\Projekt\bin\Microsoft.Owin.Security.dll
+C:\Users\Barry\Downloads\Projekt (1)\Projekt\Projekt\bin\Microsoft.Owin.Security.Facebook.dll
+C:\Users\Barry\Downloads\Projekt (1)\Projekt\Projekt\bin\Microsoft.Owin.Security.Google.dll
+C:\Users\Barry\Downloads\Projekt (1)\Projekt\Projekt\bin\Microsoft.Owin.Security.MicrosoftAccount.dll
+C:\Users\Barry\Downloads\Projekt (1)\Projekt\Projekt\bin\Microsoft.Owin.Security.OAuth.dll
+C:\Users\Barry\Downloads\Projekt (1)\Projekt\Projekt\bin\Microsoft.Owin.Security.Twitter.dll
+C:\Users\Barry\Downloads\Projekt (1)\Projekt\Projekt\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\Barry\Downloads\Projekt (1)\Projekt\Projekt\bin\Newtonsoft.Json.dll
+C:\Users\Barry\Downloads\Projekt (1)\Projekt\Projekt\bin\Owin.dll
+C:\Users\Barry\Downloads\Projekt (1)\Projekt\Projekt\bin\PagedList.dll
+C:\Users\Barry\Downloads\Projekt (1)\Projekt\Projekt\bin\PagedList.Mvc.dll
+C:\Users\Barry\Downloads\Projekt (1)\Projekt\Projekt\bin\RCONServerLib.dll
+C:\Users\Barry\Downloads\Projekt (1)\Projekt\Projekt\bin\System.Web.Helpers.dll
+C:\Users\Barry\Downloads\Projekt (1)\Projekt\Projekt\bin\System.Web.Mvc.dll
+C:\Users\Barry\Downloads\Projekt (1)\Projekt\Projekt\bin\System.Web.Optimization.dll
+C:\Users\Barry\Downloads\Projekt (1)\Projekt\Projekt\bin\System.Web.Razor.dll
+C:\Users\Barry\Downloads\Projekt (1)\Projekt\Projekt\bin\System.Web.WebPages.Deployment.dll
+C:\Users\Barry\Downloads\Projekt (1)\Projekt\Projekt\bin\System.Web.WebPages.dll
+C:\Users\Barry\Downloads\Projekt (1)\Projekt\Projekt\bin\System.Web.WebPages.Razor.dll
+C:\Users\Barry\Downloads\Projekt (1)\Projekt\Projekt\bin\WebGrease.dll
+C:\Users\Barry\Downloads\Projekt (1)\Projekt\Projekt\bin\Microsoft.AspNet.SignalR.Core.xml
+C:\Users\Barry\Downloads\Projekt (1)\Projekt\Projekt\bin\Microsoft.AspNet.SignalR.SystemWeb.xml
+C:\Users\Barry\Downloads\Projekt (1)\Projekt\Projekt\bin\PagedList.xml
+C:\Users\Barry\Downloads\Projekt (1)\Projekt\Projekt\bin\PagedList.Mvc.xml
+C:\Users\Barry\Downloads\Projekt (1)\Projekt\Projekt\bin\System.Web.Helpers.xml
+C:\Users\Barry\Downloads\Projekt (1)\Projekt\Projekt\bin\System.Web.Mvc.xml
+C:\Users\Barry\Downloads\Projekt (1)\Projekt\Projekt\bin\System.Web.Optimization.xml
+C:\Users\Barry\Downloads\Projekt (1)\Projekt\Projekt\bin\System.Web.Razor.xml
+C:\Users\Barry\Downloads\Projekt (1)\Projekt\Projekt\bin\System.Web.WebPages.xml
+C:\Users\Barry\Downloads\Projekt (1)\Projekt\Projekt\bin\System.Web.WebPages.Deployment.xml
+C:\Users\Barry\Downloads\Projekt (1)\Projekt\Projekt\bin\System.Web.WebPages.Razor.xml
+C:\Users\Barry\Downloads\Projekt (1)\Projekt\Projekt\bin\Newtonsoft.Json.xml
+C:\Users\Barry\Downloads\Projekt (1)\Projekt\Projekt\bin\Antlr3.Runtime.pdb
+C:\Users\Barry\Downloads\Projekt (1)\Projekt\Projekt\bin\EntityFramework.xml
+C:\Users\Barry\Downloads\Projekt (1)\Projekt\Projekt\bin\EntityFramework.SqlServer.xml
+C:\Users\Barry\Downloads\Projekt (1)\Projekt\Projekt\bin\Microsoft.AspNet.Identity.Core.xml
+C:\Users\Barry\Downloads\Projekt (1)\Projekt\Projekt\bin\Microsoft.AspNet.Identity.Owin.xml
+C:\Users\Barry\Downloads\Projekt (1)\Projekt\Projekt\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+C:\Users\Barry\Downloads\Projekt (1)\Projekt\Projekt\bin\Microsoft.Owin.xml
+C:\Users\Barry\Downloads\Projekt (1)\Projekt\Projekt\bin\Microsoft.Owin.Host.SystemWeb.xml
+C:\Users\Barry\Downloads\Projekt (1)\Projekt\Projekt\bin\Microsoft.Owin.Security.xml
+C:\Users\Barry\Downloads\Projekt (1)\Projekt\Projekt\bin\Microsoft.Owin.Security.Facebook.xml
+C:\Users\Barry\Downloads\Projekt (1)\Projekt\Projekt\bin\Microsoft.Owin.Security.Cookies.xml
+C:\Users\Barry\Downloads\Projekt (1)\Projekt\Projekt\bin\Microsoft.Owin.Security.Google.xml
+C:\Users\Barry\Downloads\Projekt (1)\Projekt\Projekt\bin\Microsoft.Owin.Security.Twitter.xml
+C:\Users\Barry\Downloads\Projekt (1)\Projekt\Projekt\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
+C:\Users\Barry\Downloads\Projekt (1)\Projekt\Projekt\bin\Microsoft.Owin.Security.OAuth.xml
+C:\Users\Barry\Downloads\Projekt (1)\Projekt\Projekt\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\Barry\Downloads\Projekt (1)\Projekt\Projekt\bin\pl\Microsoft.AspNet.SignalR.Core.resources.dll
+C:\Users\Barry\Downloads\Projekt (1)\Projekt\Projekt\bin\pl\Microsoft.AspNet.SignalR.SystemWeb.resources.dll
+C:\Users\Barry\Downloads\Projekt (1)\Projekt\Projekt\bin\pl\System.Web.Helpers.resources.dll
+C:\Users\Barry\Downloads\Projekt (1)\Projekt\Projekt\bin\pl\System.Web.Mvc.resources.dll
+C:\Users\Barry\Downloads\Projekt (1)\Projekt\Projekt\bin\pl\System.Web.Optimization.resources.dll
+C:\Users\Barry\Downloads\Projekt (1)\Projekt\Projekt\bin\pl\System.Web.Razor.resources.dll
+C:\Users\Barry\Downloads\Projekt (1)\Projekt\Projekt\bin\pl\System.Web.WebPages.resources.dll
+C:\Users\Barry\Downloads\Projekt (1)\Projekt\Projekt\bin\pl\System.Web.WebPages.Deployment.resources.dll
+C:\Users\Barry\Downloads\Projekt (1)\Projekt\Projekt\bin\pl\System.Web.WebPages.Razor.resources.dll
+C:\Users\Barry\Downloads\Projekt (1)\Projekt\Projekt\bin\pl\Microsoft.AspNet.Identity.Core.resources.dll
+C:\Users\Barry\Downloads\Projekt (1)\Projekt\Projekt\bin\pl\Microsoft.AspNet.Identity.Owin.resources.dll
+C:\Users\Barry\Downloads\Projekt (1)\Projekt\Projekt\bin\pl\Microsoft.AspNet.Identity.EntityFramework.resources.dll
+C:\Users\Barry\Downloads\Projekt (1)\Projekt\Projekt\bin\pl\Microsoft.Owin.resources.dll
+C:\Users\Barry\Downloads\Projekt (1)\Projekt\Projekt\bin\pl\Microsoft.Owin.Host.SystemWeb.resources.dll
+C:\Users\Barry\Downloads\Projekt (1)\Projekt\Projekt\bin\pl\Microsoft.Owin.Security.resources.dll
+C:\Users\Barry\Downloads\Projekt (1)\Projekt\Projekt\bin\pl\Microsoft.Owin.Security.Facebook.resources.dll
+C:\Users\Barry\Downloads\Projekt (1)\Projekt\Projekt\bin\pl\Microsoft.Owin.Security.Google.resources.dll
+C:\Users\Barry\Downloads\Projekt (1)\Projekt\Projekt\bin\pl\Microsoft.Owin.Security.Twitter.resources.dll
+C:\Users\Barry\Downloads\Projekt (1)\Projekt\Projekt\bin\pl\Microsoft.Owin.Security.MicrosoftAccount.resources.dll
+C:\Users\Barry\Downloads\Projekt (1)\Projekt\Projekt\obj\Debug\Projekt.csproj.CoreCompileInputs.cache
+C:\Users\Barry\Downloads\Projekt (1)\Projekt\Projekt\obj\Debug\Projekt.csproj.CopyComplete
+C:\Users\Barry\Downloads\Projekt (1)\Projekt\Projekt\obj\Debug\Projekt.dll
+C:\Users\Barry\Downloads\Projekt (1)\Projekt\Projekt\obj\Debug\Projekt.pdb

@@ -1,0 +1,58 @@
+﻿@model IEnumerable<Projekt.Models.PanelPomoc>
+
+@{
+    ViewBag.Title = "Zgłoszenia";
+}
+
+<h2>Zgłoszenia</h2>
+
+<p>
+    <!--@Html.ActionLink("Create New", "Create")-->
+</p>
+@using (Html.BeginForm())
+{
+    <p>
+        Szukaj: @Html.TextBox("SearchString")
+        <input type="submit" value="Search" />
+    </p>
+}
+<table class="table">
+    <tr>
+        <th>
+            @Html.ActionLink("Nazwa Serwera", "Index", new { sortOrder = ViewBag.NazwaSortParm })
+        </th>
+        <th>
+            @Html.ActionLink("Nazwa Użytkownika", "Index", new { sortOrder = ViewBag.NickSortParm })
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.OpisProblemu)
+        </th>
+        <th>
+            @Html.ActionLink("Status Zgłoszenia", "Index", new { sortOrder = ViewBag.StatusSortParm })
+        </th>
+        <th></th>
+    </tr>
+
+    @foreach (var item in Model)
+    {
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.Serwer.NazwaSerwera)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.UzytkownikNazwa)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.OpisProblemu)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.AktualnyStatus)
+            </td>
+            <td>
+                @Html.ActionLink("Edytuj", "Edit", new { id = item.ID }) |
+                @Html.ActionLink("Informacje", "Details", new { id = item.ID })
+            </td>
+        </tr>
+    }
+
+</table>

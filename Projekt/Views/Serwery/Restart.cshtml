@@ -1,0 +1,30 @@
+﻿@model Projekt.Models.Serwer
+
+@{
+    ViewBag.Title = "Restart";
+}
+
+<h2>Restart Serwer</h2>
+<h3>@ViewBag.Message</h3>
+
+@using (Html.BeginForm("Restart", "Serwery", FormMethod.Post, new { enctype = "multipart/form-data" }))
+{
+    @Html.AntiForgeryToken()
+
+<div class="form-horizontal">
+    <hr />
+    @Html.ValidationSummary(true, "", new { @class = "text-danger" })
+    @Html.HiddenFor(model => model.ID)
+
+    
+</div>
+}
+
+<div>
+    @Html.ActionLink("Back to List", "Index")
+</div>
+
+@section Scripts {
+    @Scripts.Render("~/bundles/jqueryval")
+}
+
