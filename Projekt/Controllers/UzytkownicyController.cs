@@ -171,8 +171,11 @@ namespace Projekt.Controllers
         [ValidateAntiForgeryToken]
         public ActionResult Ustawienia([Bind(Include = "ID,Nick,Email,Rola")] Uzytkownik uzytkownik)
         {
-            if (ModelState.IsValid)
-            {
+
+                if (uzytkownik == null)
+                {
+                    return HttpNotFound();
+                }
                 //var userManager = Request.GetOwinContext().GetUserManager<ApplicationUserManager>();
                 var userManager =  new UserManager<ApplicationUser>(new UserStore<ApplicationUser>(new ApplicationDbContext()));
                 var userId = userManager.FindByName(uzytkownik.Email);
@@ -184,11 +187,9 @@ namespace Projekt.Controllers
 
                 userManager.AddToRole(userId.Id, uzytkownik.Rola.ToString());
 
-                db.Entry(uzytkownik).State = EntityState.Modified;
+            db.Entry(uzytkownik).State = EntityState.Modified;
                 db.SaveChanges();
                 return RedirectToAction("Index");
-            }
-            return View(uzytkownik);
         }
 
         // GET: Uzytkownicy/Delete/5

@@ -3,7 +3,7 @@
 <link href="~/Content/PagedList.css" rel="stylesheet" type="text/css" />
 
 @{
-    ViewBag.Title = "Uzytkownicy";
+	ViewBag.Title = "Uzytkownicy";
 }
 
 <h2>Uzytkownicy</h2>
@@ -11,51 +11,61 @@
 
 @using (Html.BeginForm("Index", "Uzytkownicy", FormMethod.Get))
 {
-    <p>
-        Szukaj: @Html.TextBox("SearchString", ViewBag.CurrentFilter as string)
-        <input type="submit" value="Search" />
-    </p>
+	<p class="form-control">
+		Czego szukasz? @Html.TextBox("SearchString", ViewBag.CurrentFilter as string)
+		<input class="btn btn-primary" type="submit" value="Szukaj" />
+	</p>
 }
-<table class="table">
-    <tr>
-        <th>
-            @Html.ActionLink("Nick", "Index", new { sortOrder = ViewBag.NickSortParm, currentFilter = ViewBag.CurrentFilter })
-        </th>
-        <th>
-            @Html.ActionLink("Email", "Index", new { sortOrder = ViewBag.EmailSortParm, currentFilter = ViewBag.CurrentFilter })
-        </th>
-        <th></th>
-    </tr>
+<table class="table table-striped">
+	<tr>
+		<th>
+			@Html.ActionLink("Nick", "Index", new { sortOrder = ViewBag.NickSortParm, currentFilter = ViewBag.CurrentFilter })
+		</th>
+		<th>
+			@Html.ActionLink("Email", "Index", new { sortOrder = ViewBag.EmailSortParm, currentFilter = ViewBag.CurrentFilter })
+		</th>
+		<th></th>
+		<th></th>
+	</tr>
 
-    @foreach (var item in Model)
-    {
-        <tr>
-            @if (item.CzyBanowany)
-            {
-                <td style="color: red">
-                    @Html.DisplayFor(modelItem => item.Nick)
-                </td>
-            }
-            else
-            {
-                <td>
-                    @Html.DisplayFor(modelItem => item.Nick)
-                </td>
-            }
-            <td>
-                @Html.DisplayFor(modelItem => item.Email)
-            </td>
-            <td>
-                @Html.ActionLink("Informacje", "Details", new { id = item.ID }) |
-                @Html.ActionLink("Usuń", "Delete", new { id = item.ID }) |
-                @Html.ActionLink("Ustawienia Administracyjne", "Ustawienia", new { id = item.ID })
-            </td>
-        </tr>
-    }
+	@foreach (var item in Model)
+	{
+		<tr>
+			@if (item.CzyBanowany)
+			{
+				<td style="color: red">
+					@Html.ActionLink(item.Nick, "Details", new { id = item.ID })
+				</td>
+			}
+			else
+			{
+				<td>
+					@Html.ActionLink(item.Nick, "Details", new { id = item.ID })
+				</td>
+			}
+			<td>
+				@Html.DisplayFor(modelItem => item.Email)
+			</td>
+			<td>
+				@if (Context.User.IsInRole("Administrator") && item.Rola != Projekt.Models.UzytkownikRola.Administrator && !item.Email.Equals(Context.User.Identity.Name))
+				{
+					@Html.Partial("~/Views/Uzytkownicy/_UzytkownikPartial.cshtml", item)
+				}
+			</td>
+			<td>
+				@if (Context.User.IsInRole("Administrator"))
+				{
+					<button class="btn glyphicon glyphicon-trash" aria-hidden="true">
+						@Html.ActionLink(" ", "Delete", new { id = item.ID })
+					</button>
+				}
+			</td>
+		</tr>
+	}
 
 </table>
 <br />
 Page @(Model.PageCount < Model.PageNumber ? 0 : Model.PageNumber) of @Model.PageCount
 
 @Html.PagedListPager(Model, page => Url.Action("Index",
-    new { page, sortOrder = ViewBag.CurrentSort, currentFilter = ViewBag.CurrentFilter }))
+	new { page, sortOrder = ViewBag.CurrentSort, currentFilter = ViewBag.CurrentFilter }))

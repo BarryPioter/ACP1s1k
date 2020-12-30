@@ -12,7 +12,8 @@ namespace Projekt.Models
         {
             Oczekujące,
             W_Trakcie,
-            Zakończone
+            Zakończone,
+            Anulowane
         }
         public int ID { get; set; }
         [Display(Name = "Nazwa Serwera")]
