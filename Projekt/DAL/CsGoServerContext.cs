@@ -19,6 +19,7 @@ namespace Projekt.DAL
         public DbSet<Serwer> Serwery { get; set; }
         public DbSet<Ban> Bany { get; set; }
         public DbSet<PanelPomoc> PanelPomocy { get; set; }
+        public DbSet<Wiadomosc> Wiadomosci { get; set; }
 
 
         protected override void OnModelCreating(DbModelBuilder modelBuilder)

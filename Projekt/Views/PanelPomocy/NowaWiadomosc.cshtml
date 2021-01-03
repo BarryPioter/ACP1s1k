@@ -1,0 +1,30 @@
+﻿@model Projekt.Models.Wiadomosc
+
+
+<form method="Post" action="../../PanelPomocy/NowaWiadomosc">
+	@Html.AntiForgeryToken()
+	
+	<div class="form-horizontal">
+		
+		@Html.ValidationSummary(true, "", new { @class = "text-danger" })
+		<input type="number" hidden name="ID" id="ID" value="@(Model.ID)" />
+		<h4>Wyślij wiadomość</h4>
+		<div class="form-group">
+			@Html.LabelFor(model => model.Tresc, htmlAttributes: new { @class = "control-label col-md-2" })
+			<div class="col-md-10">
+				@Html.EditorFor(model => model.Tresc, new { htmlAttributes = new { @class = "form-control" } })
+				@Html.ValidationMessageFor(model => model.Tresc, "", new { @class = "text-danger" })
+			</div>
+		</div>
+
+		<div class="form-group">
+			<div class="col-md-offset-2 col-md-10">
+				<input type="submit" value="Wyślij" class="btn btn-success" />
+			</div>
+		</div>
+	</div>
+</form>
+
+@section Scripts {
+	@Scripts.Render("~/bundles/jqueryval")
+}

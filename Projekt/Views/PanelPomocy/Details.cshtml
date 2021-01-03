@@ -1,49 +1,105 @@
 ﻿@model Projekt.Models.PanelPomoc
-
+@using Microsoft.AspNet.Identity
+@using Projekt.Utils
 @{
-    ViewBag.Title = "Informacje o zgłoszeniu";
+	ViewBag.Title = "Informacje o zgłoszeniu";
 }
 
-    <h2>Informacje o zgłoszeniu</h2>
+<h2>Informacje o zgłoszeniu</h2>
 
 <div>
-    <hr />
-    <dl class="dl-horizontal">
-        <dt>
-            @Html.DisplayNameFor(model => model.Serwer.NazwaSerwera)
-        </dt>
+	<hr />
+	<dl class="dl-horizontal">
+		<h4>
+			<b>@Html.DisplayNameFor(model => model.Data):</b>
+			@Html.DisplayFor(model => model.Data)
+		</h4>
+		<h4>
+			<b>Serwer:</b>
+			@Html.DisplayFor(model => model.Serwer.NazwaSerwera)
+			@(Model.Serwer.IP):@(Model.Serwer.Port)
+		</h4>
+		<h4>
+			<b>@Html.DisplayNameFor(model => model.UzytkownikNazwa):</b>
+			@Html.DisplayFor(model => model.UzytkownikNazwa)
+		</h4>
+		<h4>
+			<b>@Html.DisplayNameFor(model => model.OpisProblemu):</b>
+			@Html.DisplayFor(model => model.OpisProblemu)
+		</h4>
 
-        <dd>
-            @Html.DisplayFor(model => model.Serwer.NazwaSerwera)
-        </dd>
+		<hr />
+		<table>
+			@if (Model.Admin != null)
+			{
+				<th class="col-md-4" style="text-align:center;">
+					<h4>
+						<b>@Html.DisplayNameFor(model => model.Typ):</b>
+						@Html.DisplayFor(model => model.Typ)
+					</h4>
+				</th>
+				<th class="col-md-4" style="text-align:center;">
+					<h4>
+						<b>@Html.DisplayNameFor(model => model.Admin):</b>
+						@Html.DisplayFor(model => model.Admin.Nick)
+					</h4>
+				</th>
+				<th class="col-md-3" style="text-align:center;">
+					@if (Model.Admin != null && Model.Admin.Email == User.Identity.GetUserName() && Model.AktualnyStatus != Projekt.Models.Status.Anulowane && Model.AktualnyStatus != Projekt.Models.Status.Zakończone)
+					{
+						<h4>
+							<b>@Html.DisplayNameFor(model => model.AktualnyStatus):</b>
 
-        <dt>
-            @Html.DisplayNameFor(model => model.UzytkownikNazwa)
-        </dt>
+							<form method="Post" action="../../PanelPomocy/ZmienStatus">
+								@Html.AntiForgeryToken()
 
-        <dd>
-            @Html.DisplayFor(model => model.UzytkownikNazwa)
-        </dd>
+								<div class="form-inline">
+									@Html.HiddenFor(model => model.ID)
+									<div class="form-group">
+										@Html.DropDownList("AktualnyStatus", Projekt.Models.Status.Oczekujące.ToSelectList().Skip(1), new { @class = "form-control" })
+									</div>
 
-        <dt>
-            @Html.DisplayNameFor(model => model.OpisProblemu)
-        </dt>
+									<div class="form-group">
+										<input type="submit" value="Zmień" class="btn btn-warning" />
+									</div>
+								</div>
+							</form>
+						</h4>
+					}
+					else
+					{
+						<h4>
+							<b>@Html.DisplayNameFor(model => model.AktualnyStatus):</b>
+							@Html.DisplayFor(model => model.AktualnyStatus)
+						</h4>
+					}
+				</th>
 
-        <dd>
-            @Html.DisplayFor(model => model.OpisProblemu)
-        </dd>
+			}
+			else
+			{
+				<th class="col-md-7" style="text-align:center;">
+					<h4>
+						<b>@Html.DisplayNameFor(model => model.Typ):</b>
+						@Html.DisplayFor(model => model.Typ)
+					</h4>
+				</th>
+				<th class="col-md-7" style="text-align:center;">
+					<h4>
+						<b>@Html.DisplayNameFor(model => model.AktualnyStatus):</b>
+						@Html.DisplayFor(model => model.AktualnyStatus)
+					</h4>
+				</th>
+			}
+		</table>
 
-        <dt>
-            @Html.DisplayNameFor(model => model.AktualnyStatus)
-        </dt>
-
-        <dd>
-            @Html.DisplayFor(model => model.AktualnyStatus)
-        </dd>
-
-    </dl>
+		<hr />
+		@if (Model.AktualnyStatus != Projekt.Models.Status.Anulowane && Model.AktualnyStatus != Projekt.Models.Status.Zakończone)
+		{
+			@Html.Partial("~/Views/PanelPomocy/NowaWiadomosc.cshtml", new Projekt.Models.Wiadomosc { ID = Model.ID })
+		}
+			@Html.Partial("~/Views/PanelPomocy/WiadomosciList.cshtml", Model.Wiadomosci)
+		
+		</dl>
 </div>
-<p>
-    @Html.ActionLink("Edit", "Edit", new { id = Model.ID }) |
-    @Html.ActionLink("Back to List", "Index")
-</p>
+

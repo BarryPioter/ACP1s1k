@@ -12,7 +12,7 @@
 @using (Html.BeginForm("Index", "Uzytkownicy", FormMethod.Get))
 {
 	<p class="form-control">
-		Czego szukasz? @Html.TextBox("SearchString", ViewBag.CurrentFilter as string)
+		Kogo szukasz? @Html.TextBox("SearchString", ViewBag.CurrentFilter as string)
 		<input class="btn btn-primary" type="submit" value="Szukaj" />
 	</p>
 }
@@ -55,9 +55,10 @@
 			<td>
 				@if (Context.User.IsInRole("Administrator"))
 				{
-					<button class="btn glyphicon glyphicon-trash" aria-hidden="true">
-						@Html.ActionLink(" ", "Delete", new { id = item.ID })
-					</button>
+					<a href="/Uzytkownicy/Delete/@(item.ID)">
+						<button class="btn btn-danger glyphicon glyphicon-trash" aria-hidden="true">
+						</button>
+					</a>
 				}
 			</td>
 		</tr>

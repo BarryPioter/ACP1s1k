@@ -70,7 +70,9 @@ namespace Projekt.Controllers
             return View(uzytkownicy.ToPagedList(pageNumber, pageSize));
         }
 
+
         // GET: Uzytkownicy/Details/5
+        [Authorize]
         public ActionResult Details(int? id)
         {
             if (id == null)
@@ -86,6 +88,7 @@ namespace Projekt.Controllers
         }
 
         // GET: Uzytkownicy/Create
+        [Authorize(Roles = "Administrator")]
         public ActionResult Create()
         {
             return View();
@@ -94,6 +97,7 @@ namespace Projekt.Controllers
         // POST: Uzytkownicy/Create
         // Aby zapewnić ochronę przed atakami polegającymi na przesyłaniu dodatkowych danych, włącz określone właściwości, z którymi chcesz utworzyć powiązania.
         // Aby uzyskać więcej szczegółów, zobacz https://go.microsoft.com/fwlink/?LinkId=317598.
+        [Authorize(Roles = "Administrator")]
         [HttpPost]
         [ValidateAntiForgeryToken]
         public ActionResult Create([Bind(Include = "ID,Nick,Email")] Uzytkownik uzytkownik)
@@ -109,6 +113,7 @@ namespace Projekt.Controllers
         }
 
         // GET: Uzytkownicy/Edit/5
+        [Authorize(Roles = "Administrator,Admin")]
         public ActionResult Edit(int? id)
         {
             if (id == null)
@@ -126,6 +131,7 @@ namespace Projekt.Controllers
         // POST: Uzytkownicy/Edit/5
         // Aby zapewnić ochronę przed atakami polegającymi na przesyłaniu dodatkowych danych, włącz określone właściwości, z którymi chcesz utworzyć powiązania.
         // Aby uzyskać więcej szczegółów, zobacz https://go.microsoft.com/fwlink/?LinkId=317598.
+        [Authorize(Roles = "Administrator,Admin")]
         [HttpPost]
         [ValidateAntiForgeryToken]
         public ActionResult Edit([Bind(Include = "ID,Nick,Email")] Uzytkownik uzytkownik)
@@ -140,6 +146,7 @@ namespace Projekt.Controllers
         }
 
         // GET: Uzytkownicy/Ustawienia/5
+        [Authorize(Roles = "Administrator")]
         public ActionResult Ustawienia(int? id)
         {
             if (id == null)
@@ -167,6 +174,7 @@ namespace Projekt.Controllers
         // POST: Uzytkownicy/Ustawienia/5
         // Aby zapewnić ochronę przed atakami polegającymi na przesyłaniu dodatkowych danych, włącz określone właściwości, z którymi chcesz utworzyć powiązania.
         // Aby uzyskać więcej szczegółów, zobacz https://go.microsoft.com/fwlink/?LinkId=317598.
+        [Authorize(Roles = "Administrator")]
         [HttpPost]
         [ValidateAntiForgeryToken]
         public ActionResult Ustawienia([Bind(Include = "ID,Nick,Email,Rola")] Uzytkownik uzytkownik)
@@ -193,6 +201,7 @@ namespace Projekt.Controllers
         }
 
         // GET: Uzytkownicy/Delete/5
+        [Authorize(Roles = "Administrator")]
         public ActionResult Delete(int? id)
         {
             if (id == null)
@@ -208,6 +217,7 @@ namespace Projekt.Controllers
         }
 
         // POST: Uzytkownicy/Delete/5
+        [Authorize(Roles = "Administrator")]
         [HttpPost, ActionName("Delete")]
         [ValidateAntiForgeryToken]
         public ActionResult DeleteConfirmed(int id)

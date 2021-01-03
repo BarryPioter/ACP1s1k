@@ -161,25 +161,14 @@ namespace Projekt.Controllers
                 {
                     await SignInManager.SignInAsync(user, isPersistent:false, rememberBrowser:false);
 
-                    Uzytkownik uzytkownik = new Uzytkownik { Nick = model.Nazwa, Email = model.Email };
-
-                    //var userManager2 = new UserManager<ApplicationUser>(
-                    //new UserStore<ApplicationUser>(new ApplicationDbContext()));
-                    //var roleManager = new RoleManager<IdentityRole>(new RoleStore<IdentityRole>(new ApplicationDbContext()));
-                    //Roles.AddUserToRole(user.Id, "User");
-                    //userManager2.AddToRole(user.Id, "User");
+                    UserManager.AddToRole(user.Id, "User");
+                    Uzytkownik uzytkownik = new Uzytkownik { Nick = model.Nazwa, Email = model.Email, Rola = UzytkownikRola.User };
 
                     CsGoServerContext db = new CsGoServerContext();
                     db.Uzytkownicy.Add(uzytkownik);
                     db.SaveChanges();
 
-                    SendMail.SendMails(model.Email, "Panel", "Dziękujemy za rejestracje!");
-
-                    // Aby uzyskać więcej informacji o sposobie włączania potwierdzania konta i resetowaniu hasła, odwiedź stronę https://go.microsoft.com/fwlink/?LinkID=320771
-                    // Wyślij wiadomość e-mail z tym łączem
-                    // string code = await UserManager.GenerateEmailConfirmationTokenAsync(user.Id);
-                    // var callbackUrl = Url.Action("ConfirmEmail", "Account", new { userId = user.Id, code = code }, protocol: Request.Url.Scheme);
-                    // await UserManager.SendEmailAsync(user.Id, "Potwierdź konto", "Potwierdź konto, klikając <a href=\"" + callbackUrl + "\">tutaj</a>");
+                    //SendMail.SendMails(model.Email, "Panel", "Dziękujemy za rejestracje!");
 
                     return RedirectToAction("Index", "Home");
                 }

@@ -74,13 +74,13 @@ namespace Projekt.DAL
 
             var zgloszenia = new List<PanelPomoc>
             {
-                new PanelPomoc{ Serwer = serwery[0], UzytkownikNazwa = "Kevcio", OpisProblemu = "Coś nie działa", AktualnyStatus = PanelPomoc.Status.Oczekujące},
-                new PanelPomoc{ Serwer = serwery[3], UzytkownikNazwa = "Barry", OpisProblemu = "zepsuty", AktualnyStatus = PanelPomoc.Status.Oczekujące},
-                new PanelPomoc{ Serwer = serwery[6], UzytkownikNazwa = "TestUser2", OpisProblemu = "cheater", AktualnyStatus = PanelPomoc.Status.Oczekujące},
-                new PanelPomoc{ Serwer = serwery[1], UzytkownikNazwa = "TestUser5", OpisProblemu = "padl", AktualnyStatus = PanelPomoc.Status.Oczekujące},
-                new PanelPomoc{ Serwer = serwery[2], UzytkownikNazwa = "TestUser9", OpisProblemu = "laggi", AktualnyStatus = PanelPomoc.Status.Oczekujące},
-                new PanelPomoc{ Serwer = serwery[7], UzytkownikNazwa = "TestUser11", OpisProblemu = "lag", AktualnyStatus = PanelPomoc.Status.Oczekujące},
-                new PanelPomoc{ Serwer = serwery[9], UzytkownikNazwa = "TestUser1", OpisProblemu = "laguje", AktualnyStatus = PanelPomoc.Status.Oczekujące},
+                new PanelPomoc{ Serwer = serwery[0], UzytkownikNazwa = "Kevcio", Uzytkownik = uzytkownicy[0], OpisProblemu = "Coś nie działa", AktualnyStatus = Status.Oczekujące, Typ = TypZgloszenia.Problemy_z_serwerem, Data = DateTime.Now, Wiadomosci = new List<Wiadomosc>()},
+                new PanelPomoc{ Serwer = serwery[3], UzytkownikNazwa = "Senpuj", Uzytkownik = uzytkownicy[2], OpisProblemu = "zepsuty", AktualnyStatus = Status.Oczekujące, Typ = TypZgloszenia.Inne, Data = DateTime.Now, Wiadomosci = new List<Wiadomosc>()},
+                new PanelPomoc{ Serwer = serwery[6], UzytkownikNazwa = "TestUser2", Uzytkownik = uzytkownicy[7], OpisProblemu = "cheater", AktualnyStatus = Status.Oczekujące, Typ = TypZgloszenia.Problemy_z_graczem, Data = DateTime.Now, Wiadomosci = new List<Wiadomosc>()},
+                new PanelPomoc{ Serwer = serwery[1], UzytkownikNazwa = "TestUser5", Uzytkownik = uzytkownicy[10], OpisProblemu = "padl", AktualnyStatus = Status.Oczekujące, Typ = TypZgloszenia.Problemy_z_serwerem, Data = DateTime.Now, Wiadomosci = new List<Wiadomosc>()},
+                new PanelPomoc{ Serwer = serwery[2], UzytkownikNazwa = "TestUser9", Uzytkownik = uzytkownicy[14], OpisProblemu = "laggi", AktualnyStatus = Status.Oczekujące, Typ = TypZgloszenia.Problemy_z_serwerem, Data = DateTime.Now, Wiadomosci = new List<Wiadomosc>()},
+                new PanelPomoc{ Serwer = serwery[7], UzytkownikNazwa = "TestUser11", Uzytkownik = uzytkownicy[16], OpisProblemu = "lag", AktualnyStatus = Status.Oczekujące, Typ = TypZgloszenia.Problemy_z_serwerem, Data = DateTime.Now, Wiadomosci = new List<Wiadomosc>()},
+                new PanelPomoc{ Serwer = serwery[9], UzytkownikNazwa = "TestUser1", Uzytkownik = uzytkownicy[6], OpisProblemu = "laguje", AktualnyStatus = Status.Oczekujące, Typ = TypZgloszenia.Problemy_z_serwerem, Data = DateTime.Now, Wiadomosci = new List<Wiadomosc>()},
             };
             zgloszenia.ForEach(b => context.PanelPomocy.Add(b));
             context.SaveChanges();

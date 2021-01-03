@@ -4,7 +4,7 @@
     ViewBag.Title = "Usun";
 }
 
-<h2>Delete</h2>
+<h2>Usuwanie</h2>
 
 <h3>Czy jesteś pewny że chcesz usunąć tego użytkownika?</h3>
 <div>
@@ -32,8 +32,8 @@
         @Html.AntiForgeryToken()
 
         <div class="form-actions no-color">
-            <input type="submit" value="Delete" class="btn btn-default" /> |
-            @Html.ActionLink("Back to List", "Index")
+            <input type="submit" value="Skasuj" class="btn btn-danger" /> |
+            @Html.ActionLink("Powrót do listy użytkowników", "Index")
         </div>
     }
 </div>

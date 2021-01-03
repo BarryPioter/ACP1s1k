@@ -1,0 +1,21 @@
+﻿@model Projekt.Models.PanelPomoc
+
+@using Projekt.Utils
+
+<tr>
+
+
+
+	<td>
+		@Html.ActionLink(Model.AktualnyStatus.ToString(), "Details", "PanelPomocy", new { id = Model.ID }, null)
+	</td>
+	<td>
+		@(Model.Serwer.NazwaSerwera) (@(Model.Serwer.IP):@(Model.Serwer.Port))
+	</td>
+	<td>
+		@(Model.OpisProblemu)
+	</td>
+	<td>
+		@(Model.UzytkownikNazwa)
+	</td>
+</tr>

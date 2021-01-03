@@ -12,6 +12,10 @@ namespace Projekt.Models
         public string PhoneNumber { get; set; }
         public bool TwoFactor { get; set; }
         public bool BrowserRemembered { get; set; }
+        public virtual Uzytkownik Uzytkownik { get; set; }
+        public virtual ICollection<Ban> Bany { get; set; }
+        public virtual ICollection<Ban> WystawioneBany { get; set; }
+        public virtual ICollection<PanelPomoc> Zgloszenia { get; set; }
     }
 
     public class ManageLoginsViewModel

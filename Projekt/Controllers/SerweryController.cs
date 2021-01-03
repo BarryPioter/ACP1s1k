@@ -41,13 +41,13 @@ namespace Projekt.Controllers
                           select s;
 
 
-
-            if (roles[0] != "Administrator")
+            // why
+            /*if (roles[0] != "Administrator")
             {
                 serwery = from s in db.Serwery
                               where s.Uzytkownik.Email == User.Identity.Name
                               select s;
-            }
+            }*/
 
             if (!String.IsNullOrEmpty(searchString))
             {

@@ -1,0 +1,18 @@
+﻿@model ICollection<Projekt.Models.Wiadomosc>
+
+@using Projekt.Utils
+
+<table class="table table-striped">
+	<tr>
+		<th class="col-md-2">Nick</th>
+		<th class="col-md-2">Tresc</th>
+		<th class="col-md-2">Data</th>
+
+	</tr>
+	@foreach (var item in Model)
+	{
+		@Html.Partial("~/Views/PanelPomocy/WiadomosciPartial.cshtml", item)
+
+	}
+
+</table>

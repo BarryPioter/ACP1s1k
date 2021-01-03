@@ -202,6 +202,7 @@
     <Compile Include="Models\PanelPomoc.cs" />
     <Compile Include="Models\Serwer.cs" />
     <Compile Include="Models\Uzytkownik.cs" />
+    <Compile Include="Models\Wiadomosc.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Startup.cs" />
     <Compile Include="Utils\EnumHelper.cs" />
@@ -291,6 +292,15 @@
     <Content Include="Views\PanelPomocy\Index.cshtml" />
     <Content Include="Views\Uzytkownicy\Ustawienia.cshtml" />
     <Content Include="Views\Uzytkownicy\_UzytkownikPartial.cshtml" />
+    <Content Include="Views\Manage\ServerList.cshtml" />
+    <Content Include="Views\Manage\ServerItem.cshtml" />
+    <Content Include="Views\Manage\BanItem.cshtml" />
+    <Content Include="Views\Manage\BanList.cshtml" />
+    <Content Include="Views\Manage\HelpItem.cshtml" />
+    <Content Include="Views\Manage\HelpList.cshtml" />
+    <Content Include="Views\PanelPomocy\WiadomosciList.cshtml" />
+    <Content Include="Views\PanelPomocy\WiadomosciPartial.cshtml" />
+    <Content Include="Views\PanelPomocy\NowaWiadomosc.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />

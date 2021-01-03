@@ -1,0 +1,32 @@
+﻿@model Projekt.Models.Wiadomosc
+@using Microsoft.AspNet.Identity
+@if (Model.Uzytkownik.Email == User.Identity.GetUserName())
+{
+	<tr style="background-color: darkcyan; color: white;">
+		<td>
+			@(Model.Uzytkownik.Nick)
+		</td>
+		<td>
+			@(Model.Tresc)
+		</td>
+		<td>
+			@(Model.Data)
+		</td>
+	</tr>
+}
+else
+{
+	<tr>
+		<td>
+			@(Model.Uzytkownik.Nick)
+		</td>
+		<td>
+			@(Model.Tresc)
+		</td>
+		<td>
+			@(Model.Data)
+		</td>
+	</tr>
+}
+
+

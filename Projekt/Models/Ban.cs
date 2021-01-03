@@ -22,7 +22,5 @@ namespace Projekt.Models
         [Display(Name = "Długość bana")]
         public int CzasBana { get; set; }
         public virtual Serwer Serwer { get; set; }
-
-        public int MyProperty { get; set; }
     }
 }

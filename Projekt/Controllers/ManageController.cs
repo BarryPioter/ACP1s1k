@@ -6,6 +6,7 @@ using System.Web.Mvc;
 using Microsoft.AspNet.Identity;
 using Microsoft.AspNet.Identity.Owin;
 using Microsoft.Owin.Security;
+using Projekt.DAL;
 using Projekt.Models;
 
 namespace Projekt.Controllers
@@ -15,7 +16,7 @@ namespace Projekt.Controllers
     {
         private ApplicationSignInManager _signInManager;
         private ApplicationUserManager _userManager;
-
+        private CsGoServerContext db = new CsGoServerContext();
         public ManageController()
         {
         }
@@ -63,6 +64,10 @@ namespace Projekt.Controllers
                 : message == ManageMessageId.RemovePhoneSuccess ? "Usunięto numer telefonu."
                 : "";
 
+
+            string name = HttpContext.User.Identity.GetUserName();
+            Uzytkownik uzytkownik = db.Uzytkownicy.Where(u => u.Email == name).FirstOrDefault();
+
             var userId = User.Identity.GetUserId();
             var model = new IndexViewModel
             {
@@ -70,7 +75,11 @@ namespace Projekt.Controllers
                 PhoneNumber = await UserManager.GetPhoneNumberAsync(userId),
                 TwoFactor = await UserManager.GetTwoFactorEnabledAsync(userId),
                 Logins = await UserManager.GetLoginsAsync(userId),
-                BrowserRemembered = await AuthenticationManager.TwoFactorBrowserRememberedAsync(userId)
+                BrowserRemembered = await AuthenticationManager.TwoFactorBrowserRememberedAsync(userId),
+                Uzytkownik = uzytkownik,
+                Bany = db.Bany.Where(b => b.NazwaGracza == uzytkownik.Nick).ToList(),
+                WystawioneBany = db.Bany.Where(b => b.UzytkownikNazwa == uzytkownik.Nick).ToList(),
+                Zgloszenia = db.PanelPomocy.Where(b => b.Uzytkownik.ID == uzytkownik.ID).ToList()
             };
             return View(model);
         }
