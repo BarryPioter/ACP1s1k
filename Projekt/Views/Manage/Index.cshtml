@@ -1,0 +1,41 @@
+﻿@model Projekt.Models.IndexViewModel
+@{
+	ViewBag.Title = "Profil użytkownika";
+}
+
+<h2>@ViewBag.Title.</h2>
+
+<p class="text-success">@ViewBag.StatusMessage</p>
+<div>
+	<hr />
+	<dl class="dl-horizontal">
+		<dt>Hasło:</dt>
+		<dd>
+			[
+			@if (Model.HasPassword)
+			{
+				@Html.ActionLink("Zmień hasło", "ChangePassword")
+			}
+			else
+			{
+				@Html.ActionLink("Utwórz", "SetPassword")
+			}
+			]
+		</dd>
+		<hr />
+		<h3>Moje serwery</h3>
+		@Html.Partial("~/Views/Manage/ServerList.cshtml", Model.Uzytkownik.Serwery)
+		<hr />
+		<h3>Moje zgłoszenia</h3>
+		@Html.Partial("~/Views/Manage/HelpList.cshtml", Model.Zgloszenia)
+		<hr />
+		@if (Context.User.IsInRole("Administrator") || Context.User.IsInRole("Admin"))
+		{
+			<h3>Wystawione bany</h3>
+			@Html.Partial("~/Views/Manage/BanList.cshtml", Model.WystawioneBany)
+			<hr />
+		}
+		<h3>Moje bany</h3>
+		@Html.Partial("~/Views/Manage/BanList.cshtml", Model.Bany)
+	</dl>
+</div>

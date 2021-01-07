@@ -1,0 +1,24 @@
+﻿@model Projekt.Models.Uzytkownik
+@using Microsoft.AspNet.Identity
+@using Projekt.Utils
+
+@{
+	ViewBag.Title = "_UzytkownikPartial";
+}
+
+<form method="Post" action="Uzytkownicy/Ustawienia">
+	@Html.AntiForgeryToken()
+
+	<div class="form-inline">
+		@Html.HiddenFor(model => model.ID)
+		@Html.HiddenFor(model => model.Nick)
+		@Html.HiddenFor(model => model.Email)
+		<div class="form-group">
+			@Html.DropDownList("Rola", Projekt.Models.UzytkownikRola.Admin.ToSelectList().Skip(1), new { @class = "form-control" })
+		</div>
+
+		<div class="form-group">
+			<input type="submit" value="Zmień" class="btn btn-default" />
+		</div>
+	</div>
+</form>

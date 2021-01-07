@@ -1,0 +1,25 @@
+﻿@model ICollection<Projekt.Models.Serwer>
+
+@using Projekt.Utils
+
+@if (Model.Count > 0)
+{
+
+	<table class="table table-striped">
+		<tr>
+			<th class="col-md-4">Nazwa serwera</th>
+			<th class="col-md-4">Adres</th>
+			<th class="col-md-4">Data utworzenia</th>
+		</tr>
+		@foreach (var item in Model)
+		{
+			@Html.Partial("~/Views/Manage/ServerItem.cshtml", item)
+
+		}
+
+	</table>
+}
+else
+{
+	<h4>Nie masz żadnych serwerów :(</h4>
+}

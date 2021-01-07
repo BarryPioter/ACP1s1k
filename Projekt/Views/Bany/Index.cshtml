@@ -1,0 +1,83 @@
+﻿@model IEnumerable<Projekt.Models.Ban>
+
+@{
+    ViewBag.Title = "Lista zbanowanych";
+}
+
+    <h2>Lista zbanowanych</h2>
+
+    <p>
+        <!--@Html.ActionLink("Dodaj Bana", "Create")-->
+        <a href="/Bany/Create">
+            <button class="btn btn-info">
+                Dodaj Bana
+            </button>
+        </a>
+    </p>
+<table class="table">
+    <tr>
+        <th>
+            @Html.DisplayNameFor(model => model.Serwer.NazwaSerwera)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.UzytkownikNazwa)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Steam)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.NazwaGracza)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.PowodBana)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.CzasBana)
+        </th>
+        <th></th>
+    </tr>
+
+@foreach (var item in Model) {
+<tr>
+    <td>
+        @Html.DisplayFor(modelItem => item.Serwer.NazwaSerwera)
+    </td>
+    <td>
+        @Html.DisplayFor(modelItem => item.UzytkownikNazwa)
+    </td>
+    <td>
+        @Html.DisplayFor(modelItem => item.Steam)
+    </td>
+    <td>
+        @Html.DisplayFor(modelItem => item.NazwaGracza)
+    </td>
+    <td>
+        @Html.DisplayFor(modelItem => item.PowodBana)
+    </td>
+    <td>
+        @Html.DisplayFor(modelItem => item.CzasBana)
+    </td>
+    <td>
+        <!--@Html.ActionLink("Edytuj", "Edit", new { id=item.ID }) |
+        @Html.ActionLink("Informacje", "Details", new { id=item.ID }) |
+        @Html.ActionLink("Usuń", "Delete", new { id=item.ID })-->
+
+        <a href="/Bany/Details/@(item.ID)">
+            <button class="btn btn-warning">
+                Informacje
+            </button>
+        </a>
+        <a href="/Bany/Edit/@(item.ID)">
+            <button class="btn btn-success">
+                Edytuj
+            </button>
+        </a>
+        <a href="/Bany/Delete/@(item.ID)">
+            <button class="btn btn-danger glyphicon glyphicon-trash" aria-hidden="true">
+            </button>
+        </a>
+    </td>
+</tr>
+}
+
+</table>

@@ -1,0 +1,109 @@
+﻿@model IEnumerable<Projekt.Models.Serwer>
+
+@{
+	ViewBag.Title = "Serwery";
+	ViewBag.Message = "";
+}
+
+<h2>Serwery</h2>
+
+<p>
+    <a href="/Serwery/Create">
+        <button class="btn btn-info">
+            Dodaj serwer
+        </button>
+    </a>
+	@if (ViewBag.Strona)
+    {
+		<a href="/Serwery/MojeSerwery">
+			<button class="btn btn-success">
+				Pokaż Moje Serwery
+			</button>
+		</a>
+    }
+    else
+    {
+		<a href="/Serwery/Index">
+			<button class="btn btn-warning">
+				Pokaż Wszystkie Serwery
+			</button>
+		</a>
+    }
+</p>
+@using (Html.BeginForm())
+{
+	<p>
+		Szukaj: @Html.TextBox("SearchString")
+		<input type="submit" value="Szukaj" />
+	</p>
+}
+<table class="table table-striped">
+	<tr>
+		<th>
+			@Html.ActionLink("Nick", "Index", new { sortOrder = ViewBag.NickSortParm })
+		</th>
+		<th>
+			@Html.ActionLink("Nazwa Serwera", "Index", new { sortOrder = ViewBag.NameSortParm })
+		</th>
+		<th>
+			@Html.DisplayNameFor(model => model.IP)
+		</th>
+		<th>
+			@Html.DisplayNameFor(model => model.Port)
+		</th>
+		<th>
+			@Html.ActionLink("Data Utworzenia", "Index", new { sortOrder = ViewBag.DateSortParm })
+		</th>
+		<th></th>
+
+	</tr>
+
+	@foreach (var item in Model)
+	{
+		<tr>
+			<td>
+				@Html.DisplayFor(modelItem => item.Uzytkownik.Nick)
+			</td>
+			<td>
+				@Html.DisplayFor(modelItem => item.NazwaSerwera)
+			</td>
+			<td>
+				@Html.DisplayFor(modelItem => item.IP)
+			</td>
+			<td>
+				@Html.DisplayFor(modelItem => item.Port)
+			</td>
+			<td>
+				@Html.DisplayFor(modelItem => item.DataUtworzenia)
+			</td>
+			<td>
+
+				<a href="/PanelPomocy/Create/@(item.ID)">
+					<button class="btn btn-primary">
+						Dodaj Zgłoszenie
+					</button>
+				</a>
+			@if (Context.User.IsInRole("Administrator") || Context.User.IsInRole("Admin") || Context.User.Identity.Name == item.Uzytkownik.Email)
+			{
+					<a href="/Serwery/Details/@(item.ID)">
+						<button class="btn btn-warning">
+							Informacje
+						</button>
+					</a>
+					<a href="/Serwery/Edit/@(item.ID)">
+						<button class="btn btn-success">
+							Edytuj
+						</button>
+					</a>
+					<a href="/Serwery/Delete/@(item.ID)">
+						<button class="btn btn-danger glyphicon glyphicon-trash" aria-hidden="true">
+						</button>
+					</a>
+			}
+
+			</td>
+
+		</tr>
+	}
+
+</table>

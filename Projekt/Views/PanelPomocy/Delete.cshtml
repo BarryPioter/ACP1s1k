@@ -1,0 +1,55 @@
+﻿@model Projekt.Models.PanelPomoc
+
+@{
+    ViewBag.Title = "Usuń zgłoszenie";
+}
+
+    <h2>Usuń zgłoszenie</h2>
+
+<h3>Jesteś pewny że chcesz usunąć to zgłoszenie?</h3>
+<div>
+    <hr />
+    <dl class="dl-horizontal">
+        <dt>
+            @Html.DisplayNameFor(model => model.Serwer.NazwaSerwera)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Serwer.NazwaSerwera)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.UzytkownikNazwa)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.UzytkownikNazwa)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.OpisProblemu)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.OpisProblemu)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.AktualnyStatus)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.AktualnyStatus)
+        </dd>
+
+    </dl>
+
+    @using (Html.BeginForm()) {
+        @Html.AntiForgeryToken()
+
+        <div class="form-actions no-color">
+            <input type="submit" value="Delete" class="btn btn-default" /> |
+            @Html.ActionLink("Back to List", "Index")
+        </div>
+    }
+</div>

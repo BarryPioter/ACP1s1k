@@ -1,0 +1,74 @@
+﻿@model Projekt.Models.Ban
+
+@{
+    ViewBag.Title = "Informacje";
+}
+
+    <h2>Informacje o banie</h2>
+
+<div>
+    <hr />
+    <dl class="dl-horizontal">
+        <dt>
+            @Html.DisplayNameFor(model => model.Serwer.NazwaSerwera)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Serwer.NazwaSerwera)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.UzytkownikNazwa)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.UzytkownikNazwa)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Steam)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Steam)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.NazwaGracza)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.NazwaGracza)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.PowodBana)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.PowodBana)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.CzasBana)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.CzasBana)
+        </dd>
+
+    </dl>
+</div>
+<p>
+    <!--@Html.ActionLink("Edit", "Edit", new { id = Model.ID }) |
+    @Html.ActionLink("Back to List", "Index")-->
+    <a href="/Bany/Edit/@(Model.ID)">
+        <button class="btn btn-success">
+            Edytuj
+        </button>
+        <a href="/Bany/Index">
+            <button class="btn btn-warning">
+                Wróć do listy
+            </button>
+        </a>
+</p>

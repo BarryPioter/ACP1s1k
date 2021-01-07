@@ -1,0 +1,142 @@
+﻿@model Projekt.Models.Serwer
+
+@{
+    ViewBag.Title = "Informacje o serwerze";
+}
+
+    <h2>Informacje o serwerze</h2>
+
+<div>
+    <hr />
+    <dl class="dl-horizontal">
+        <dt>
+            @Html.DisplayNameFor(model => model.Uzytkownik.Nick)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Uzytkownik.Nick)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.NazwaSerwera)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.NazwaSerwera)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.IP)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.IP)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Port)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Port)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.DataUtworzenia)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.DataUtworzenia)
+        </dd>
+        <dt>
+            @Html.DisplayNameFor(model => model.Status)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Status)
+        </dd>
+
+        <dt>
+            Aktualna Liczba Graczy
+        </dt>
+
+        <dd>
+        @ViewBag.AktGraczy / @ViewBag.MaxGraczy
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Obrazek)
+        </dt>
+
+        <dd>
+            <img src="~/Obrazki/@Html.DisplayFor(model => model.Obrazek)" alt="" height="50px" width="50px" />
+        </dd>
+        <br />
+        <dd>
+            <!--@Html.ActionLink("Start", "Start", new { id = Model.ID }) |
+            @Html.ActionLink("Stop", "Stop", new { id = Model.ID }) |
+            @Html.ActionLink("Restart", "Restart", new { id = Model.ID })-->
+            <a href="/Serwery/Start/@(Model.ID)">
+                <button class="btn btn-success"">
+                    Start
+                </button>
+            </a>
+            <a href="/Serwery/Restart/@(Model.ID)">
+                <button class="btn btn-warning">
+                    Restart
+                </button>
+            </a>
+            <a href="/Serwery/Stop/@(Model.ID)">
+                <button class="btn btn-danger ">
+                    Stop
+                </button>
+            </a>
+        </dd>
+        <br /><br />
+        <dt>
+            @Html.DisplayNameFor(model => model.Bany)
+        </dt>
+        <dd>
+            <table class="table">
+                <tr>
+                    <th>Nazwa Zbanowanego</th>
+                    <th>Steam ID</th>
+                    <th>Powód bana</th>
+                    <th>Zbanowany przez</th>
+                </tr>
+                @foreach (var item in Model.Bany)
+                {
+                    <tr>
+                        <td>
+                            @Html.DisplayFor(modelItem => item.NazwaGracza)
+                        </td>
+                        <td>
+                            @Html.DisplayFor(modelItem => item.Steam)
+                        </td>
+                        <td>
+                            @Html.DisplayFor(modelItem => item.PowodBana)
+                        </td>
+                        <td>
+                            @Html.DisplayFor(modelItem => item.UzytkownikNazwa)
+                        </td>
+                    </tr>
+                }
+            </table>
+        </dd>
+
+
+    </dl>
+</div>
+<p>
+    <!--@Html.ActionLink("Edit", "Edit", new { id = Model.ID }) |
+    @Html.ActionLink("Back to List", "Index")-->
+    <a href="/Serwery/Edit/@(Model.ID)">
+        <button class="btn btn-success">
+            Edytuj
+        </button>
+        <a href="/Serwery/Index">
+            <button class="btn btn-warning">
+                Wróć do listy
+            </button>
+        </a>
+</p>

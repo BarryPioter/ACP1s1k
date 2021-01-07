@@ -1,0 +1,18 @@
+﻿@model Projekt.Models.Serwer
+
+@using Projekt.Utils
+
+<tr>
+
+
+
+	<td>
+		@Html.ActionLink(Model.NazwaSerwera, "Details", "Serwery", new { id = Model.ID }, null)
+	</td>
+	<td>
+		@(Model.IP):@(Model.Port)
+	</td>
+	<td>
+		@(Model.DataUtworzenia)
+	</td>
+</tr>

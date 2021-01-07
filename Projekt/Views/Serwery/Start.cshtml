@@ -1,0 +1,35 @@
+﻿@model Projekt.Models.Serwer
+
+@{
+    ViewBag.Title = "Start";
+}
+
+<h2>Start Serwer</h2>
+<h3>@ViewBag.Message</h3>
+
+@using (Html.BeginForm("Start", "Serwery", FormMethod.Post, new { enctype = "multipart/form-data" }))
+{
+    @Html.AntiForgeryToken()
+
+<div class="form-horizontal">
+    <hr />
+    @Html.ValidationSummary(true, "", new { @class = "text-danger" })
+    @Html.HiddenFor(model => model.ID)
+
+    
+</div>
+}
+
+<div>
+    <!--@Html.ActionLink("Back to List", "Index")-->
+    <a href="/Serwery/Index">
+        <button class="btn btn-warning">
+            Wróć do listy
+        </button>
+    </a>
+</div>
+
+@section Scripts {
+    @Scripts.Render("~/bundles/jqueryval")
+}
+

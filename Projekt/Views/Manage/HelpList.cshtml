@@ -1,0 +1,26 @@
+﻿@model ICollection<Projekt.Models.PanelPomoc>
+
+@using Projekt.Utils
+
+@if (Model.Count > 0)
+{
+
+	<table class="table table-striped">
+		<tr>
+			<th>Nazwa serwera</th>
+			<th>Adres</th>
+			<th>Data utworzenia</th>
+			<th>Admin</th>
+		</tr>
+		@foreach (var item in Model)
+		{
+			@Html.Partial("~/Views/Manage/HelpItem.cshtml", item)
+
+		}
+
+	</table>
+}
+else
+{
+<h4>Nie masz żadnych zgłoszeń! Cieszymy się, żę wszystko Ci się podoba!</h4>
+}

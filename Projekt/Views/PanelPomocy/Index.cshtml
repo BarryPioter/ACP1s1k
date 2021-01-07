@@ -1,0 +1,185 @@
+﻿@model IEnumerable<Projekt.Models.PanelPomoc>
+@using Microsoft.AspNet.Identity
+@{
+	ViewBag.Title = "Zgłoszenia";
+}
+
+<h1>@(ViewBag.Message)</h1>
+
+<h2>Przyjęte zgłoszenia</h2>
+
+<table class="table">
+	<tr>
+		<th>
+			@Html.DisplayNameFor(model => model.Serwer.NazwaSerwera)
+		</th>
+		<th>
+			@Html.DisplayNameFor(model => model.UzytkownikNazwa)
+		</th>
+		<th>
+			@Html.DisplayNameFor(model => model.Data)
+		</th>
+		<th>
+			@Html.DisplayNameFor(model => model.Typ)
+		</th>
+		<th>
+			@Html.DisplayNameFor(model => model.AktualnyStatus)
+		</th>
+		<th></th>
+	</tr>
+
+	@foreach (var item in Model)
+	{
+		if (item.Admin != null && item.Admin.Email == User.Identity.GetUserName() && item.AktualnyStatus != Projekt.Models.Status.Anulowane && item.AktualnyStatus != Projekt.Models.Status.Zakończone)
+		{
+			<tr>
+				<td>
+					@Html.DisplayFor(modelItem => item.Serwer.NazwaSerwera)
+				</td>
+				<td>
+					@Html.DisplayFor(modelItem => item.UzytkownikNazwa)
+				</td>
+				<td>
+					@Html.DisplayFor(modelItem => item.Data)
+				</td>
+				<td>
+					@Html.DisplayFor(modelItem => item.Typ)
+				</td>
+				<td style="color: blue;">
+					@Html.DisplayFor(modelItem => item.AktualnyStatus)
+				</td>
+				<td>
+					<a href="/PanelPomocy/Details/@(item.ID)">
+						<button class="btn btn-info">
+							Szczegóły
+						</button>
+					</a>
+				</td>
+			</tr>
+		}
+	}
+
+</table>
+
+<hr />
+<h3>Nowe zgłoszenia</h3>
+
+<table class="table">
+	<tr>
+		<th>
+			@Html.DisplayNameFor(model => model.Serwer.NazwaSerwera)
+		</th>
+		<th>
+			@Html.DisplayNameFor(model => model.UzytkownikNazwa)
+		</th>
+		<th>
+			@Html.DisplayNameFor(model => model.Data)
+		</th>
+		<th>
+			@Html.DisplayNameFor(model => model.Typ)
+		</th>
+		<th>
+			@Html.DisplayNameFor(model => model.AktualnyStatus)
+		</th>
+		<th></th>
+	</tr>
+
+	@foreach (var item in Model)
+	{
+		if (item.AktualnyStatus == Projekt.Models.Status.Oczekujące)
+		{
+			<tr>
+				<td>
+					@Html.DisplayFor(modelItem => item.Serwer.NazwaSerwera)
+				</td>
+				<td>
+					@Html.DisplayFor(modelItem => item.UzytkownikNazwa)
+				</td>
+				<td>
+					@Html.DisplayFor(modelItem => item.Data)
+				</td>
+				<td>
+					@Html.DisplayFor(modelItem => item.Typ)
+				</td>
+				<td style="color: orange;">
+					@Html.DisplayFor(modelItem => item.AktualnyStatus)
+				</td>
+				<td>
+					<a href="/PanelPomocy/Przyjmij/@(item.ID)">
+						<button class="btn btn-primary">
+							Przyjmij
+						</button>
+					</a>
+				</td>
+			</tr>
+		}
+	}
+
+</table>
+
+<hr />
+<h3>Zakończone zgłoszenia</h3>
+
+<table class="table">
+	<tr>
+		<th>
+			@Html.DisplayNameFor(model => model.Serwer.NazwaSerwera)
+		</th>
+		<th>
+			@Html.DisplayNameFor(model => model.UzytkownikNazwa)
+		</th>
+		<th>
+			@Html.DisplayNameFor(model => model.Data)
+		</th>
+		<th>
+			@Html.DisplayNameFor(model => model.Typ)
+		</th>
+		<th>
+			@Html.DisplayNameFor(model => model.AktualnyStatus)
+		</th>
+		<th></th>
+	</tr>
+
+	@foreach (var item in Model)
+	{
+		if (item.Admin != null && item.Admin.Email == User.Identity.GetUserName() && (item.AktualnyStatus == Projekt.Models.Status.Anulowane || item.AktualnyStatus == Projekt.Models.Status.Zakończone))
+		{
+			<tr>
+				<td>
+					@Html.DisplayFor(modelItem => item.Serwer.NazwaSerwera)
+				</td>
+				<td>
+					@Html.DisplayFor(modelItem => item.UzytkownikNazwa)
+				</td>
+				<td>
+					@Html.DisplayFor(modelItem => item.Data)
+				</td>
+				<td>
+					@Html.DisplayFor(modelItem => item.Typ)
+				</td>
+
+				@if (item.AktualnyStatus == Projekt.Models.Status.Zakończone)
+				{
+					<td style="color: green;">
+						@Html.DisplayFor(modelItem => item.AktualnyStatus)
+					</td>
+				}
+				else if (item.AktualnyStatus == Projekt.Models.Status.Anulowane)
+				{
+					<td style="color:red;">
+						@Html.DisplayFor(modelItem => item.AktualnyStatus)
+					</td>
+				}
+
+				<td>
+					<a href="/PanelPomocy/Details/@(item.ID)">
+						<button class="btn btn-info">
+							Szczegóły
+						</button>
+					</a>
+				</td>
+			</tr>
+		}
+	}
+
+</table>

@@ -1,0 +1,30 @@
+﻿@model IEnumerable<Projekt.ViewModels.SerweryStatystyka>
+
+@{
+    ViewBag.Title = "Serwery Statystyka";
+}
+
+    <h2>Serwery Statystyka</h2>
+
+<table>
+    <tr>
+        <th>
+            Data Utworzenia &nbsp;
+        </th>
+        <th>
+            Ilość
+        </th>
+    </tr>
+
+    @foreach (var item in Model)
+    {
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.DataUtworzenia)
+            </td>
+            <td>
+                @item.SerwerCount
+            </td>
+        </tr>
+    }
+</table>
