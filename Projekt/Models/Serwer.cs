@@ -33,8 +33,6 @@ namespace Projekt.Models
         public String Status { get; set; }
         public string Obrazek { get; set; }
         public int MyProperty { get; set; }
-        public virtual ICollection<Ban> Bany { get; set; }
-        public virtual ICollection<PanelPomoc> PanelPomocy { get; set; }
         public virtual Uzytkownik Uzytkownik { get; set; }
     }
 }

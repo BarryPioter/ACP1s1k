@@ -25,6 +25,8 @@ namespace Projekt.DAL
         protected override void OnModelCreating(DbModelBuilder modelBuilder)
         {
             modelBuilder.Conventions.Remove<PluralizingTableNameConvention>();
+            modelBuilder.Entity<Ban>().HasRequired(b => b.Serwer).WithMany().WillCascadeOnDelete(true);
+            modelBuilder.Entity<PanelPomoc>().HasRequired(pp => pp.Serwer).WithMany().WillCascadeOnDelete(true);
         }
     }
 }
