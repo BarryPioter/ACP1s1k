@@ -11,9 +11,6 @@ namespace Projekt.Models
         
         public int ID { get; set; }
 
-        [Display(Name = "Nazwa Serwera")]
-        public int SerwerID { get; set; }
-
         [Display(Name = "Nazwa Użytkownika")]
         public string UzytkownikNazwa { get; set; }
 

@@ -302,6 +302,7 @@ namespace Projekt.Controllers
         public ActionResult DeleteConfirmed(int id)
         {
             Serwer serwer = db.Serwery.Find(id);
+
             db.Serwery.Remove(serwer);
             db.SaveChanges();
             return RedirectToAction("Index");

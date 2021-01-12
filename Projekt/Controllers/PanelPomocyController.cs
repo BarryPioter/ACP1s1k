@@ -63,12 +63,12 @@ namespace Projekt.Controllers
         // Aby uzyskać więcej szczegółów, zobacz https://go.microsoft.com/fwlink/?LinkId=317598.
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public ActionResult Create([Bind(Include = "SerwerID,OpisProblemu,Typ,UzytkownikNazwa")] PanelPomoc panelPomoc)
+        public ActionResult Create([Bind(Include = "ID,OpisProblemu,Typ,UzytkownikNazwa")] PanelPomoc panelPomoc)
         {
             if (ModelState.IsValid)
             {
                 panelPomoc.Data = DateTime.Now;
-                Serwer serwer = db.Serwery.Find(panelPomoc.SerwerID);
+                Serwer serwer = db.Serwery.Find(panelPomoc.ID);
                 panelPomoc.Serwer = serwer;
                 panelPomoc.Uzytkownik = db.Uzytkownicy.Single(u => u.Email == User.Identity.Name);
                 panelPomoc.AktualnyStatus = Status.Oczekujące;
@@ -79,7 +79,7 @@ namespace Projekt.Controllers
                 return RedirectToAction("Index","Home");
             }
 
-            ViewBag.SerwerID = panelPomoc.SerwerID;
+            ViewBag.SerwerID = panelPomoc.ID;
             return View(panelPomoc);
         }
 
@@ -161,66 +161,6 @@ namespace Projekt.Controllers
             db.SaveChanges();
 
             return RedirectToAction("Details/" + panelPomoc.ID);
-        }
-
-        [Authorize(Roles = "Administrator,Admin")]
-        // GET: PanelPomocy/Edit/5
-        public ActionResult Edit(int? id)
-        {
-            if (id == null)
-            {
-                return new HttpStatusCodeResult(HttpStatusCode.BadRequest);
-            }
-            PanelPomoc panelPomoc = db.PanelPomocy.Find(id);
-            if (panelPomoc == null)
-            {
-                return HttpNotFound();
-            }
-            ViewBag.SerwerID = new SelectList(db.Serwery, "ID", "NazwaSerwera", panelPomoc.SerwerID);
-            return View(panelPomoc);
-        }
-
-        // POST: PanelPomocy/Edit/5
-        // Aby zapewnić ochronę przed atakami polegającymi na przesyłaniu dodatkowych danych, włącz określone właściwości, z którymi chcesz utworzyć powiązania.
-        // Aby uzyskać więcej szczegółów, zobacz https://go.microsoft.com/fwlink/?LinkId=317598.
-        [HttpPost]
-        [ValidateAntiForgeryToken]
-        public ActionResult Edit([Bind(Include = "ID,SerwerID,UzytkownikNazwa,OpisProblemu,AktualnyStatus")] PanelPomoc panelPomoc)
-        {
-            if (ModelState.IsValid)
-            {
-                db.Entry(panelPomoc).State = EntityState.Modified;
-                db.SaveChanges();
-                return RedirectToAction("Index");
-            }
-            ViewBag.SerwerID = new SelectList(db.Serwery, "ID", "NazwaSerwera", panelPomoc.SerwerID);
-            return View(panelPomoc);
-        }
-
-        [Authorize(Roles = "Administrator,Admin")]
-        public ActionResult Delete(int? id)
-        {
-            if (id == null)
-            {
-                return new HttpStatusCodeResult(HttpStatusCode.BadRequest);
-            }
-            PanelPomoc panelPomoc = db.PanelPomocy.Find(id);
-            if (panelPomoc == null)
-            {
-                return HttpNotFound();
-            }
-            return View(panelPomoc);
-        }
-
-        [Authorize(Roles = "Administrator,Admin")]
-        [HttpPost, ActionName("Delete")]
-        [ValidateAntiForgeryToken]
-        public ActionResult DeleteConfirmed(int id)
-        {
-            PanelPomoc panelPomoc = db.PanelPomocy.Find(id);
-            db.PanelPomocy.Remove(panelPomoc);
-            db.SaveChanges();
-            return RedirectToAction("Index");
         }
 
         protected override void Dispose(bool disposing)
